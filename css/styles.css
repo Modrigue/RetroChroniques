@@ -167,7 +167,7 @@ body {
   font-family: var(--font-pixel);
   font-size: 0.6rem;
   color: var(--text-dim);
-  margin-top: 0.75rem;
+  margin-top: 0.05rem;
   letter-spacing: 1px;
 }
 
@@ -635,54 +635,7 @@ body.theme-amber .amiga-gradient {
 }
 
 .modal-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1.2rem;
-  color: var(--text-dim);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  cursor: pointer;
-  padding: 0.6rem 0.5rem;
-  transition: all 0.2s;
-  z-index: 2;
-  line-height: 1;
-}
-
-.modal-nav:hover {
-  color: var(--green);
-  border-color: var(--green-dim);
-}
-
-.modal-nav:disabled {
-  opacity: 0.2;
-  cursor: default;
-}
-
-.modal-nav:disabled:hover {
-  color: var(--text-dim);
-  border-color: var(--border);
-}
-
-.modal-prev {
-  left: -0.5rem;
-}
-
-.modal-next {
-  right: -0.5rem;
-}
-
-@media (max-width: 768px) {
-  .modal-prev {
-    left: 0.25rem;
-  }
-  .modal-next {
-    right: 0.25rem;
-  }
-  .modal-nav {
-    font-size: 1rem;
-    padding: 0.5rem 0.4rem;
-  }
+  display: none;
 }
 
 .modal-title {
