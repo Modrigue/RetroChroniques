@@ -20,6 +20,7 @@
   var modalBody = document.getElementById("modal-body");
   var countEl = document.getElementById("review-count");
   var searchInput = document.getElementById("search-input");
+  var searchClear = document.getElementById("search-clear");
   var sortSelect = document.getElementById("sort-select");
   var scrollTopBtn = document.getElementById("scroll-top");
   var viewToggle = document.getElementById("view-toggle");
@@ -316,6 +317,20 @@
         state.search = searchInput.value.trim();
         renderCards();
       }, 300);
+      // Show/hide clear button based on input
+      if (searchInput.value.length > 0) {
+        searchClear.classList.remove("hidden");
+      } else {
+        searchClear.classList.add("hidden");
+      }
+    });
+
+    searchClear.addEventListener("click", function () {
+      searchInput.value = "";
+      state.search = "";
+      searchClear.classList.add("hidden");
+      renderCards();
+      searchInput.focus();
     });
   }
 

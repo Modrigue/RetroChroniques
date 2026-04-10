@@ -53,7 +53,10 @@
       </label>
     </div>
     <div class="filter-group filter-controls">
-      <input type="text" id="search-input" class="search-input" placeholder="Rechercher...">
+      <div class="search-wrapper">
+        <input type="text" id="search-input" class="search-input" placeholder="Rechercher...">
+        <button id="search-clear" class="search-clear hidden" aria-label="Effacer la recherche">×</button>
+      </div>
       <select id="sort-select" class="sort-select">
         <option value="chronological">R&#233;daction</option>
         <option value="alpha">A — Z</option>

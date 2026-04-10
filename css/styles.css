@@ -354,6 +354,12 @@ body.theme-amber .amiga-gradient {
   color: var(--pink);
 }
 
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .search-input {
   font-family: var(--font-mono);
   font-size: 0.85rem;
@@ -364,6 +370,24 @@ body.theme-amber .amiga-gradient {
   outline: none;
   width: 220px;
   transition: border-color 0.2s;
+  padding-right: 2.5rem;
+}
+
+.search-clear {
+  position: absolute;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.search-clear:hover {
+  color: var(--text);
 }
 
 .search-input::placeholder {
@@ -734,10 +758,13 @@ body.theme-amber .amiga-gradient {
 .bonus-ratings-list li {
   padding: 0.3rem 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--border);
   font-size: 0.85rem;
+}
+
+.bonus-ratings-list li > :first-child {
+  flex: 0 0 220px;
 }
 
 .bonus-ratings-list li:last-child {
@@ -748,6 +775,10 @@ body.theme-amber .amiga-gradient {
   color: var(--gold);
   font-family: var(--font-pixel);
   font-size: 1rem;
+  line-height: 1;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-left: auto;
 }
 
 .bonus-rating-link {
@@ -852,6 +883,10 @@ body.theme-amber .amiga-gradient {
 }
 
 .scroll-top.hidden {
+  display: none;
+}
+
+.hidden {
   display: none;
 }
 
