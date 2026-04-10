@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RetroChroniques — Chroniques de jeux vidéo rétro</title>
+  <meta name="description" content="Chroniques personnelles de jeux vidéo rétro : GBA, Megadrive, SNES, PS1, Amiga et plus encore.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="amiga-gradient"></div>
+  <div class="scanlines"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <h1 class="site-title"><span class="typewriter">RetroChroniques</span></h1>
+    <p class="site-subtitle">Les chroniques des jeux vidéo rétro à Nico</p>
+  </header>
+
+  <nav class="filter-bar">
+    <div class="filter-group filter-platforms">
+      <button class="filter-btn active" data-platform="all">Tous</button>
+      <button class="filter-btn" data-platform="Amiga">Amiga</button>
+      <button class="filter-btn" data-platform="Game Gear">Game Gear</button>
+      <button class="filter-btn" data-platform="GBA">GBA</button>
+      <button class="filter-btn" data-platform="Master System">Master System</button>
+      <button class="filter-btn" data-platform="Mega CD">Mega CD</button>
+      <button class="filter-btn" data-platform="Megadrive">Megadrive</button>
+      <button class="filter-btn" data-platform="PC">PC</button>
+      <button class="filter-btn" data-platform="PS1">PS1</button>
+      <button class="filter-btn" data-platform="SNES">SNES</button>
+    </div>
+    <div class="filter-group filter-categories">
+      <label class="category-checkbox">
+        <input type="checkbox" id="filter-official" checked>
+        <span class="checkbox-label">Jeux officiels</span>
+      </label>
+      <label class="category-checkbox">
+        <input type="checkbox" id="filter-fan-game" checked>
+        <span class="checkbox-label">Fan Games</span>
+      </label>
+      <label class="category-checkbox">
+        <input type="checkbox" id="filter-rom-hack" checked>
+        <span class="checkbox-label">ROM Hacks</span>
+      </label>
+    </div>
+    <div class="filter-group filter-controls">
+      <input type="text" id="search-input" class="search-input" placeholder="Rechercher...">
+      <select id="sort-select" class="sort-select">
+        <option value="alpha">A — Z</option>
+        <option value="rating-desc">Note &#9660;</option>
+        <option value="rating-asc">Note &#9650;</option>
+        <option value="chronological">Ordre de r&#233;daction</option>
+      </select>
+      <button id="view-toggle" class="view-toggle" aria-label="Passer en vue liste" title="Passer en vue liste">
+        <span class="view-icon-cards">&#9776;</span>
+        <span class="view-icon-list hidden">&#9638;</span>
+      </button>
+      <button id="theme-toggle" class="theme-toggle" title="Passer en thème ambre">Ambre</button>
+    </div>
+  </nav>
+
+  <div class="stats-bar">
+    <span id="review-count"></span>
+  </div>
+
+  <main id="reviews-container" class="reviews-grid"></main>
+
+  <div id="review-modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fermer">&times;</button>
+      <button id="modal-prev" class="modal-nav modal-prev" aria-label="Chronique pr&eacute;c&eacute;dente">&#9664;</button>
+      <button id="modal-next" class="modal-nav modal-next" aria-label="Chronique suivante">&#9654;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <button id="scroll-top" class="scroll-top hidden" aria-label="Retour en haut">&#9650;</button>
+
+  <footer class="site-footer">
+    <p>RetroChroniques &copy; 2026</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/reviews/01-super-metroid.js"></script>
+  <script src="js/reviews/02-lost-vikings.js"></script>
+  <script src="js/reviews/03-prince-of-persia-snes.js"></script>
+  <script src="js/reviews/04-wonderboy-dragons-trap.js"></script>
+  <script src="js/reviews/05-alladin.js"></script>
+  <script src="js/reviews/06-mega-turrican.js"></script>
+  <script src="js/reviews/07-shadow-of-the-beast-3.js"></script>
+  <script src="js/reviews/08-super-turrican.js"></script>
+  <script src="js/reviews/09-metroid-zero-mission.js"></script>
+  <script src="js/reviews/10-turrican-morguls-return.js"></script>
+  <script src="js/reviews/11-sonic-cd.js"></script>
+  <script src="js/reviews/12-flink.js"></script>
+  <script src="js/reviews/13-troddlers.js"></script>
+  <script src="js/reviews/14-ecco-the-dolphin.js"></script>
+  <script src="js/reviews/15-monster-world-iv.js"></script>
+  <script src="js/reviews/16-prince-of-persia-2.js"></script>
+  <script src="js/reviews/17-castlevania-aria-of-sorrow.js"></script>
+  <script src="js/reviews/18-super-metroid-ascent.js"></script>
+  <script src="js/reviews/19-hurrican.js"></script>
+  <script src="js/reviews/20-castlevania-sotn.js"></script>
+  <script src="js/reviews/21-metroid-am2r.js"></script>
+  <script src="js/reviews/22-wonderboy-5.js"></script>
+  <script src="js/reviews/23-monkey-island-3.js"></script>
+  <script src="js/reviews/24-metroid-fusion.js"></script>
+  <script src="js/reviews/25-lionheart.js"></script>
+  <script src="js/reviews/26-metroidican-mission-x.js"></script>
+  <script src="js/reviews/27-castlevania-circle-of-the-moon.js"></script>
+  <script src="js/reviews/28-zelda-minish-cap.js"></script>
+  <script src="js/reviews/29-super-metroid-temple-of-the-winds.js"></script>
+  <script src="js/reviews/30-castlevania-harmony-of-dissonance.js"></script>
+  <script src="js/reviews/31-sonic-triple-trouble.js"></script>
+  <script src="js/reviews/32-metroidican.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
