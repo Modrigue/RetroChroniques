@@ -9,6 +9,11 @@ window.CHRONIQUES.push({
     "Quand j'ai appris des années plus tard qu'il y avait des suites sur consoles, j'étais fou... mais au final légèrement déçu car ces épisodes n'avaient pas la patte du créateur original de la série, qui était parti. Résultat : niveaux un peu moins grands, moins labyrinthiques, graphismes plus flashy... Il fallait quand même que je me fasse ma propre idée.",
     "Finalement l'épisode Megadrive n'est pas mal, un peu court mais avec de bonnes musiques, du rythme et des environnements plus variés que l'épisode SNES, Super Turrican. Les niveaux style Alien sont superbes, peut être même mieux que ceux des jeux officiels Alien."
   ],
+  images: [
+    { src: "img/MegaTurrican_1.jpg", alt: "Mega Turrican - Screenshot 1" },
+    { src: "img/MegaTurrican_2.jpg", alt: "Mega Turrican - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [{ url: "https://www.youtube.com/watch?v=0e2perjkl7U", type: "youtube", label: "Un aperçu de la saga Turrican" }],
   bonusRatings: [
     { title: "Turrican 1", rating: 4 },

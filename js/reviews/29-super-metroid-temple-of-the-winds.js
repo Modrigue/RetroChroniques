@@ -11,6 +11,11 @@ window.CHRONIQUES.push({
     "Considéré comme le hack Metroid de 2020, Temple of the Winds fait figure aussi bien de curiosité que de petite pépite. Ici, les hackers ont TOTALEMENT redesigner le jeu, que ce soit au niveau des graphismes, des items, des musiques ou du gameplay, parfois même en n'hésitant pas à casser des codes. On est vraiment immergé dans une ambiance particulière, sans avoir l'impression de jouer à Super Metroid et de se retaper les mêmes environnements et sempiternels boss. Et le tout reste faisable pour le commun des mortels.",
     "Preuve du soin apporté par ses créateurs, le jeu est carrément accompagné d'un manuel, avec son histoire et même ses croquis ! Bref, un hack court, mais très inventif et comme on - enfin moi en tout cas - aimerait en voir plus souvent !"
   ],
+  images: [
+    { src: "img/SuperMetroidTOTW_1.jpg", alt: "Super Metroid TOTW - Screenshot 1" },
+    { src: "img/SuperMetroidTOTW_2.jpg", alt: "Super Metroid TOTW - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 3,
   links: [
     { url: "https://metroidconstruction.com/hack.php?id=614", type: "website", label: "Page du hack sur MetroidConstruction" },
     { url: "https://www.romhacking.net/hacks/4963/", type: "website", label: "Patch de recharge aux points de save" }

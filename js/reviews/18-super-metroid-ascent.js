@@ -12,6 +12,11 @@ window.CHRONIQUES.push({
     "Je mets quelques petits bémols pour certains boss et à une feature particulière que je ne vous spoilerai pas, mais à part ces points de pinaillage, c'est une réussite, une réinvention à tous les niveaux : énigmes, gameplay, environnements, musique..., et en plus faisable par le commun des mortels. Personnellement, c'est tout ce que je recherche dans un rom hack !",
     "A essayer les yeux fermés si vous êtes fan de Super Metroid."
   ],
+  images: [
+    { src: "img/SuperMetroidAscent_1.jpg", alt: "Super Metroid Ascent - Screenshot 1" },
+    { src: "img/SuperMetroidAscent_2.jpg", alt: "Super Metroid Ascent - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [{ url: "https://metroidconstruction.com/hacks.php", type: "website", label: "MetroidConstruction - Hacks" }],
   bonusRatings: null
 });

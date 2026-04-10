@@ -11,7 +11,7 @@ window.CHRONIQUES.push({
     "Pas trop long, pas trop compliqué, avec un cheminement logique, un petit Metroidvania idéal et tout mignon pour les enfants."
   ],
   images: [
-    { src: "img/Wonderboy3_1.png", alt: "Wonderboy 3 - Screenshot 1" }
+    { src: "img/Wonderboy3_1.jpg", alt: "Wonderboy 3 - Screenshot 1" }
   ],
   imagesAfterParagraph: 2,
   links: [],

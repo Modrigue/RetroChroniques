@@ -11,8 +11,8 @@ window.CHRONIQUES.push({
     "En poussant un peu plus loin les aspects explorations et armes, et aussi en améliorant la maniabilité, on aurait pu avoir un grand jeu heroic fantasy. Pour les braves, il y aussi un mode difficile, avec des niveaux différents ! Dommage qu'il ne soit pas sorti sur d'autres supports."
   ],
   images: [
-    { src: "img/Lionheart_1.png", alt: "Lionheart - Screenshot 1" },
-    { src: "img/Lionheart_2.png", alt: "Lionheart - Screenshot 2" }
+    { src: "img/Lionheart_1.jpg", alt: "Lionheart - Screenshot 1" },
+    { src: "img/Lionheart_2.jpg", alt: "Lionheart - Screenshot 2" }
   ],
   imagesAfterParagraph: 2,
   links: [],
