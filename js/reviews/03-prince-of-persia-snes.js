@@ -16,5 +16,8 @@ window.CHRONIQUES.push({
   ],
   imagesAfterParagraph: 1,
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Super Prince of Persia", rating: 4.5 },
+    { title: "Prince of Persia 2", rating: 2.5, id: 16 }
+  ]
 });

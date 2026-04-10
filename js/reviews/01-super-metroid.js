@@ -10,5 +10,10 @@ window.CHRONIQUES.push({
     "Le tour premier est considéré comme dur et Fusion a l'air plus guidé. Quant au 2, j'ai prévu de faire le remake AM2R plus tard."
   ],
   links: [{ url: "https://www.youtube.com/watch?v=cVLtnYhkTFU", type: "youtube", label: "Un speedrun où ils font les boss à l'envers" }],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Metroid Zero Mission", rating: 4.5, id: 9 },
+    { title: "Metroid AM2R", rating: 4.5, id: 21 },
+    { title: "Super Metroid", rating: 5 },
+    { title: "Metroid Fusion", rating: 4, id: 24 }
+  ]
 });

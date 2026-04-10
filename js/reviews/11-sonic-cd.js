@@ -18,8 +18,7 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 2,
   links: [],
   bonusRatings: [
-    { title: "Sonic 1", rating: 4 },
-    { title: "Sonic 2", rating: 4.5 },
-    { title: "Sonic 3 & Knuckles", rating: 5 }
+    { title: "Sonic CD", rating: 4 },
+    { title: "Sonic Triple Trouble", rating: 3, id: 31 }
   ]
 });

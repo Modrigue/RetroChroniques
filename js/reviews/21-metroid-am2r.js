@@ -19,5 +19,10 @@ window.CHRONIQUES.push({
   ],
   imagesAfterParagraph: 3,
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Metroid Zero Mission", rating: 4.5, id: 9 },
+    { title: "Metroid AM2R", rating: 4.5 },
+    { title: "Super Metroid", rating: 5, id: 1 },
+    { title: "Metroid Fusion", rating: 4, id: 24 }
+  ]
 });

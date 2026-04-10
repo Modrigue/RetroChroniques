@@ -11,5 +11,10 @@ window.CHRONIQUES.push({
     "Bref. Je n'ai que moyennement aimé cet opus pour la simple et bonne raison que je n'y ai pas beaucoup retrouvé les éléments qui font l'esprit de la saga : l'exploration, les items à upgrader en cherchant les échoppes par ci par là, les armes droppées au hasard, les musiques entrainantes (de qualité comparable à celles de Zelda)... A la place, on a un nombre limité de niveaux, trop longs et répétitifs, et des musiques qui en deviennent assez ennuyeuses. Il y a bien des upgrades, mais pas beaucoup. J'aurai bien voulu, mais je n'ai pas accroché, l'ambiance n'y était pas pour moi. Dommage.",
   ],
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Wonderboy 2 - Monsterworld I", rating: 4 },
+    { title: "Wonderboy 3 - Monsterworld II", rating: 4, id: 4 },
+    { title: "Wonderboy 5 - Monsterworld III", rating: 4, id: 22 },
+    { title: "Wonderboy 6 - Monsterworld IV", rating: 2.5 }
+  ]
 });

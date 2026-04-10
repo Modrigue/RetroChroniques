@@ -17,5 +17,8 @@ window.CHRONIQUES.push({
   ],
   imagesAfterParagraph: 2,
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Mega Turrican", rating: 3.5, id: 6 },
+    { title: "Super Turrican", rating: 3 }
+  ]
 });

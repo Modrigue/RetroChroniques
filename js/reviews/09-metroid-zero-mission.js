@@ -10,5 +10,10 @@ window.CHRONIQUES.push({
     "Le demi-point en moins est simplement pour la fin, légèrement abrupte à mon gout. Toutefois, cela n'enlève rien au travail remarquable de Nintendo pour avoir su nous proposer ce très bon remake, surtout quand on voit le matériau original."
   ],
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Metroid Zero Mission", rating: 4.5 },
+    { title: "Metroid AM2R", rating: 4.5, id: 21 },
+    { title: "Super Metroid", rating: 5, id: 1 },
+    { title: "Metroid Fusion", rating: 4, id: 24 }
+  ]
 });

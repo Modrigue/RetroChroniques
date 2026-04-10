@@ -11,5 +11,8 @@ window.CHRONIQUES.push({
     "Mon PoP favori 2D reste donc pour l'instant le remake du 1 sur SNES."
   ],
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Super Prince of Persia", rating: 4.5, id: 3 },
+    { title: "Prince of Persia 2", rating: 2.5 }
+  ]
 });

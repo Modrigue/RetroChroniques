@@ -16,5 +16,8 @@ window.CHRONIQUES.push({
   ],
   imagesAfterParagraph: 2,
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Sonic CD", rating: 4, id: 11 },
+    { title: "Sonic Triple Trouble", rating: 3 }
+  ]
 });

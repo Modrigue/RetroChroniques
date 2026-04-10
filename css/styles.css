@@ -747,7 +747,18 @@ body.theme-amber .amiga-gradient {
 .bonus-rating-stars {
   color: var(--gold);
   font-family: var(--font-pixel);
-  font-size: 0.5rem;
+  font-size: 1rem;
+}
+
+.bonus-rating-link {
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.bonus-rating-link:hover {
+  color: var(--green);
 }
 
 /* Links */

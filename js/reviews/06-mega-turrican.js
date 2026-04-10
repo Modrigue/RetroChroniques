@@ -17,7 +17,7 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 1,
   links: [{ url: "https://www.youtube.com/watch?v=0e2perjkl7U", type: "youtube", label: "Un aperçu de la saga Turrican" }],
   bonusRatings: [
-    { title: "Turrican 1", rating: 4 },
-    { title: "Turrican 2", rating: 5 }
+    { title: "Mega Turrican", rating: 3.5 },
+    { title: "Super Turrican", rating: 3, id: 8 }
   ]
 });

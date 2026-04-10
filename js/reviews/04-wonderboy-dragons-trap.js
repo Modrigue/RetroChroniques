@@ -16,5 +16,10 @@ window.CHRONIQUES.push({
   ],
   imagesAfterParagraph: 2,
   links: [],
-  bonusRatings: null
+  bonusRatings: [
+    { title: "Wonderboy 2 - Monsterworld I", rating: 4 },
+    { title: "Wonderboy 3 - Monsterworld II", rating: 4 },
+    { title: "Wonderboy 5 - Monsterworld III", rating: 4, id: 22 },
+    { title: "Wonderboy 6 - Monsterworld IV", rating: 2.5, id: 15 }
+  ]
 });

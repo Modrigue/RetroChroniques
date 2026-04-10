@@ -235,7 +235,11 @@
       html += '<h3>R\u00e9cap de la saga</h3>';
       html += '<ul class="bonus-ratings-list">';
       r.bonusRatings.forEach(function (b) {
-        html += '<li><span>' + escapeHtml(b.title) + '</span><span class="bonus-rating-stars">' + renderStars(b.rating) + '</span></li>';
+        if (b.id) {
+          html += '<li><a href="#review-' + b.id + '" class="bonus-rating-link" data-id="' + b.id + '">' + escapeHtml(b.title) + '</a><span class="bonus-rating-stars">' + renderStars(b.rating) + '</span></li>';
+        } else {
+          html += '<li><span>' + escapeHtml(b.title) + '</span><span class="bonus-rating-stars">' + renderStars(b.rating) + '</span></li>';
+        }
       });
       html += '</ul>';
       html += '</div>';
@@ -346,6 +350,15 @@
     container.addEventListener("click", function (e) {
       var card = e.target.closest(".review-card");
       if (card) openModal(parseInt(card.dataset.id, 10));
+    });
+
+    modalBody.addEventListener("click", function (e) {
+      var link = e.target.closest(".bonus-rating-link");
+      if (link) {
+        e.preventDefault();
+        var id = parseInt(link.dataset.id, 10);
+        if (id) openModal(id);
+      }
     });
 
     modal.querySelector(".modal-backdrop").addEventListener("click", closeModal);
