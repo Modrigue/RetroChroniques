@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["GBA"],
   rating: 4.5,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Je ne sais pas s'ils ont un générateur automatique de titres de Castlevania à Konami, mais en tout cas leurs jeux sont bel et bien faits par des humains, avec soin et amour de son prochain. Ce qui est une performance en soi car les 3 opus GBA sont sortis métroniquement durant 3 années consécutives. Aria of Sorrow étant le petit dernier, on aurait pu s'attendre à un avachissement de la licence et à un manque de renouvellement. Hé bien que nenni !",
     "Non seulement la DA, l'ambiance, l'exploration sont toujours au rendez-vous, mais surtout est introduite une nouvelle mécanique de gameplay qui sera reprise dans de futurs opus, à savoir l'absorption d'\"âmes\" d'ennemis tués, qui permet d'utiliser un nombre très important de pouvoirs ou d'armes très différents pour aider à la progression.",

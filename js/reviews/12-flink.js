@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Megadrive", "Mega CD"],
   rating: 4,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Une petite perle de plateforme injustement méconnue, sortie exclusivement sur Megadrive. En un mot : féérique. Les graphismes (qui en font au passage un des beaux jeux de la console), la musique, l'univers, les sorts à crafter... On reconnait bien là la touche du célèbre éditeur Psygnosis et son appétence pour les jeux à l'ambiance fantasy appuyée. Le gameplay est un peu pataud au début, mais ça se joue très bien après. J'aurai personnellement aimé un peu plus de verticalité, mais le héros peut revenir dans les niveaux avec de nouveaux sorts qu'il aura acquis, ajoutant ainsi une petite touche Metroid.",
     "Je serai Sega, j'incluerai Flink dans la Megadrive Mini officielle qui va bientôt sortir. Mais comme ces gars ne sont pas particulièrement doués pour valoriser leur patrimoine vidéoludique, je n'y crois pas beaucoup..."

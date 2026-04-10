@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["SNES"],
   rating: 3,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Dommage. Le début est bien, la fin aussi. Par contre c'est assez ennuyeux au milieu et le tout manque un peu de rythme. D'après ce que j'ai compris, le jeu a du sortir en urgence, obligeant les devs à abandonner plusieurs niveaux et certains boss.",
     "Maintenant qu'il y a des fan games Turrican, ça m'intéresserait de voir si des amateurs avec du temps libre peuvent faire des meilleurs jeux que des pros sous contraintes financières et temporelles.",

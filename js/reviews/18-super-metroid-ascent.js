@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["SNES"],
   rating: 4,
   category: "rom-hack",
+  nbPlayers: 1,
   review: [
     "Dans la famille des hacks de Super Metroid, je demande... le meilleur tout simplement :",
     "Voyez plutôt les récompenses : Top Hacks 2019: Best Aesthetics, Most Creative Gameplay, Best Exploration, Best Overall. Tout ceci est-il dûment mérité ? Oui, oui, oui et encore oui.",

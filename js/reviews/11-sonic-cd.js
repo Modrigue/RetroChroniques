@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Mega CD"],
   rating: 4,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Le seul Sonic retro 16 bits que je n'avais pas fait à l'époque, parce que... j'avais pas de Mega CD tout simplement. Adulé par les uns, détesté par les autres. Perso, en tant que fan de la mascotte de Sega, quand elle est en 2D, il fallait que je me fasse ma propre idée.",
     "La grande innovation apporté par cet opus, en plus des musiques CD bien sûr, est la possibilité de \"voyager dans le temps\" dans les niveaux en maintenant une \"vitesse supersonique\" (ça ne vous rappelle rien ?). Les différentes époques des niveaux présentent des différences d'aspect, d'ambiance, de bestiaire, mais aussi de structure. Bon, on est pas dans \"A Link to the Past\" non plus hein. Mais c'est assez sympa et ça apporte de la variété.",

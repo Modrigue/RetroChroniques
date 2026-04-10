@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Game Gear", "Master System", "PC"],
   rating: 4,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Inspiré par Zelda 2, la série des Wonderboy est une saga d'arcade avec un petit côté RPG injustement oublié de Sega. Et comme le concurrent historique de Nintendo n'est pas fichu de comprendre ce que faisait la qualité de ses licences rétro, il aura fallu qu'une équipe française fasse ce remake en 2017 pour que ce jeu tout mignon atteigne les meilleurs ventes des consoles actuelles.",
     "Considéré par beaucoup comme le meilleur jeu de la Master System, ce 3e volet des aventures de Wonderboy marque un changement dans la série car il s'oriente plus vers un Metroid. Sauf que là le personnage se transforme en animaux, chacun ayant des capacités spécifiques leur permettant d'aller dans des endroits particuliers. Au joueur de découvrir les chemins à emprunter.",

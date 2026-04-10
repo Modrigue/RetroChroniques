@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["GBA"],
   rating: 3.5,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Deuxième partie de la trilogie sur GBA, Harmony of Dissonance est furieusement inspiré de son grand frère Symphony of the Night, jusque dans les traits de son personnage principal, Juste Belmont (ah bon, il a pas de prénom ?).",
     "Par rapport à l'épisode précédent, la difficulté a été revue à la baisse, on ne va pas s'en plaindre. Le protagoniste peut combiner différentes armes, bien que les possibilités ne soient pas aussi importantes que dans COTM. Certains décors sont vraiment superbes pour de la GBA, on prend vraiment plaisir à parcourir le (vaste) terrain de jeu. Niveau inventaire, c'est l'inverse de son prédécesseur : on se retrouve vite avec pas mal de merdier, mais pas autant que SOTN quand même. Tout cela rend l'exploration plutôt intéressante.",

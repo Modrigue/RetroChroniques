@@ -8,6 +8,7 @@
     showOfficial: true,
     showFanGames: true,
     showRomHacks: true,
+    showMultiplayer: false,
     search: "",
     sort: "chronological",
     viewMode: "cards"
@@ -76,6 +77,8 @@
       if (!state.showOfficial && r.category === "standard") return false;
       if (!state.showFanGames && r.category === "fan-game") return false;
       if (!state.showRomHacks && r.category === "rom-hack") return false;
+      // Multiplayer filter
+      if (state.showMultiplayer && r.nbPlayers !== 2) return false;
       // Search filter
       if (q) {
         var haystack = normalize(r.title);
@@ -137,6 +140,9 @@
       if (catLabel) {
         html += '<span class="category-badge">' + escapeHtml(catLabel) + '</span>';
       }
+      if (r.nbPlayers === 2) {
+        html += '<span class="players-badge">2P</span>';
+      }
       html += '</div>';
       html += '<p class="card-excerpt">' + escapeHtml(excerpt(r.review, 160)) + '</p>';
       html += '</article>';
@@ -173,6 +179,9 @@
     });
     if (catLabel) {
       html += '<span class="category-badge">' + escapeHtml(catLabel) + '</span>';
+    }
+    if (r.nbPlayers === 2) {
+      html += '<span class="players-badge">2P</span>';
     }
     html += '<span class="modal-rating">' + renderStars(r.rating) + '</span>';
     html += '</div>';
@@ -286,6 +295,11 @@
 
     document.getElementById("filter-rom-hack").addEventListener("change", function () {
       state.showRomHacks = this.checked;
+      renderCards();
+    });
+
+    document.getElementById("filter-multiplayer").addEventListener("change", function () {
+      state.showMultiplayer = this.checked;
       renderCards();
     });
   }

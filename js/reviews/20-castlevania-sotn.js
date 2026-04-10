@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PS1"],
   rating: 4.5,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Autant vous le dire tout de suite, je n'ai jamais été passionné par les histoires de vampires, d'occultisme et de morts-vivants. Du coup les séries JV/TV comme Resident Evil, Walking Dead et Castlevania - seule série de jeu au monde où ramasser des cœurs ne redonne pas de la vie - , je m'en bats pas mal le crucifix à la base.",
     "Cependant, dans ma quête du Graal des metroidvania, il fallait quand même que je sache d'où venait le \"vania\".",

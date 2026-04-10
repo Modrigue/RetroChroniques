@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["GBA"],
   rating: 4,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Moi qui ne suis à la base pas trop client des histoires de vampires et autres zombies, me voilà lancé dans la trilogie Castlevania sur GBA.",
     "Premier épisode du triptyque et faisant suite à l'opus culte Symphony of the Night sur PS1, Circle of the Moon n'est pourtant pas forcément celui par lequel commencer compte tenu de sa difficulté parfois corsée. La grande originalité du jeu réside dans le fait de collecter des cartes d'attributs que l'on peut combiner pour obtenir différents pouvoirs d'attaque ou de défense. L'influence de la Pokémania de l'époque ?",

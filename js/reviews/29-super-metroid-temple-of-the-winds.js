@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["SNES"],
   rating: 4,
   category: "rom-hack",
+  nbPlayers: 1,
   review: [
     "Que faire quand on a terminé tous les Metroids 2D ? Encore plus de Metroids 2D bien sûr !",
     "Histoire qu'il n'y ait plus de limites à l'amusement et à l'exploration, toute une communauté de hackers gamers se font plaisir en remodelant leur jeu fétiche à leur guise : améliorations, nouvelles cartes, nouveau gameplay, nouvelles règles...",

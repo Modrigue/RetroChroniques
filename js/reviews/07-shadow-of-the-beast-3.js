@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Amiga"],
   rating: 3.5,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "En plus d'être une révolution à la fin des années 80, SotB 1 était clairement le jeu dont les photos me faisaient le plus baver à l'époque. Des réacteurs de fusée et un jetpack dans un univers médiévalo-fantastique, qu'est-ce c'est que ce truc ? Plus dure fut la chute... Quelle déception en y jouant des années après ! Son gameplay et son level design ne faisaient clairement pas honneur à ses graphismes époustouflants et ses musiques somptueuses.",
     "SotB 2 était en deçà sur presque tous les points, avec en plus des puzzles assez tordus.",

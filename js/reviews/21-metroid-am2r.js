@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 4.5,
   category: "fan-game",
+  nbPlayers: 1,
   review: [
     "Attendus par les fans, non autorisé par Nintendo, AM2R est l'abréviation de \"Another Metroid 2 Remake\". Plus qu'un remake, c'est carrément une sublimation de l'épisode 2 sorti à l'époque sur Game Boy, qui n'avait jusque là pas eu droit à un lifting officiel !",
     "Cette fois, Samus descend sur la planète d'origine des Metroids et va en affronter de différentes sortes, dans une ambiance à la Aliens 2. Que dire de ce projet entièrement développé par des fans ? Ce remake est simplement parfait !",

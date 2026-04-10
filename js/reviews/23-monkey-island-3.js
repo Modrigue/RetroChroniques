@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 4,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Ayant beaucoup aimé les 2 premiers Monkey Island et les point'n'clicks LucasArts en général, j'avais essayé le 3 en démo sur mon Compaq quand j'étais au lycée. Et j'ai pu continuer l'aventure grâce à la magie de GOG.",
     "Déjà, deux changements majeurs : le rendu entièrement \"bande-dessinée\" qui colle parfaitement à l'univers, et surtout la grande simplification de l'interface. Plus de verbes à cliquer, le panel des interactions a été réduit au minimum.",

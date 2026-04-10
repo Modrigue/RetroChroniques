@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Megadrive"],
   rating: 2.5,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Le dernier épisode officiel d'une saga culte de mon enfance, malheureusement un peu passée sous les radars dans les années 90, notamment à cause de son nommage anarchique. J'ai déjà parlé des Wonderboy l'année dernière, je ne vais donc pas revenir dessus.",
     "Monster World IV est en fait le 6ème épisode de la série de Wonderboy, mais le 4ème à se dérouler dans le monde des monstres. MAIS on y incarne une héroïne, ça ne peut donc pas s'appeler Wonderboy. Vous suivez ? Sérieusement, les gens de chez Sega, respectez-vous.",

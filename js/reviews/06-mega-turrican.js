@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Megadrive"],
   rating: 3.5,
   category: "standard",
+  nbPlayers: 1,
   review: [
     "Turrican 1 & 2 étaient parmi les meilleurs jeux d'action sur ordi début 90, sorte de version arcade de Metroid. Une saga pionnière du style run'n'gun, dotée d'un style visuel SF soigné, inspiré d H.R. Giger (design des films Alien), et des musiques superbes. Le joueur est encouragé à explorer des niveaux gigantesques, avec un nb. d'écrans record pour l'époque. C'est aussi la 1ère fois où j'ai vu des boss de débuts/milieu de niveau, des sorties en haut/en bas, aux lieux des classiques \"boss de fin de niveau tout à droite\".",
     "Quand j'ai appris des années plus tard qu'il y avait des suites sur consoles, j'étais fou... mais au final légèrement déçu car ces épisodes n'avaient pas la patte du créateur original de la série, qui était parti. Résultat : niveaux un peu moins grands, moins labyrinthiques, graphismes plus flashy... Il fallait quand même que je me fasse ma propre idée.",

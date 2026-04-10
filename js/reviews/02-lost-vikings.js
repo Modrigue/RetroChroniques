@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Megadrive", "SNES"],
   rating: 4.5,
   category: "standard",
+  nbPlayers: 2,
   review: [
     "LE jeu de puzzle/plate-forme de l'époque, avec Lemmings, mais en plus fun. Le joueur dirige 3 personnages aux capacités différentes et doit les faire s'entraider pour progresser. Son humour et sa difficulté progressive en font un jeu idéal pour les enfants, qui plus est pour apprendre l'anglais.",
     "Je retire 1/2 point pour les musiques, assez répétitives.",

@@ -304,6 +304,19 @@ body.theme-amber .amiga-gradient {
   border-color: var(--pink);
 }
 
+#filter-multiplayer:checked {
+  background: #fff;
+  border-color: #fff;
+}
+
+#filter-multiplayer:checked::after {
+  color: #000;
+}
+
+#filter-multiplayer:checked + .checkbox-label {
+  color: #fff;
+}
+
 .category-checkbox input[type="checkbox"]:checked::after {
   content: "\2713";
   position: absolute;
@@ -317,7 +330,17 @@ body.theme-amber .amiga-gradient {
 }
 
 .category-checkbox input[type="checkbox"]:hover {
-  border-color: var(--pink);
+  border-color: #fff;
+  margin-left: 4px;
+}
+
+#filter-multiplayer:hover {
+  border-color: #fff;
+  margin-left: 40px;
+}
+
+#filter-multiplayer:hover + .checkbox-label {
+  color: #fff;
 }
 
 .checkbox-label {
@@ -541,6 +564,7 @@ body.theme-amber .amiga-gradient {
   flex-wrap: wrap;
   gap: 0.35rem;
   margin-bottom: 0.75rem;
+  align-items: center;
 }
 
 .platform-badge {
@@ -570,6 +594,20 @@ body.theme-amber .amiga-gradient {
   border-radius: 2px;
   background: var(--pink);
   color: #fff;
+}
+
+.players-badge {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+  min-width: 1.8rem;
+  min-height: 1.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-excerpt {
@@ -650,7 +688,7 @@ body.theme-amber .amiga-gradient {
 .modal-meta {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
   margin-bottom: 1.25rem;
 }
@@ -661,6 +699,7 @@ body.theme-amber .amiga-gradient {
   color: var(--gold);
   line-height: 1;
   position: relative;
+  margin-top: 2px;
   top: -0.3rem;
 }
 

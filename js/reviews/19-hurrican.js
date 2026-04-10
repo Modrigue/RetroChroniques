@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 3.5,
   category: "fan-game",
+  nbPlayers: 1,
   review: [
     "Comme il est coutume, on finit sur un autre fan game Turrican, sauf que c'est cette fois-ci il est en 2D pré-rendu 3D. En effet, le jeu ne reprend pas les décors et les sprites d'origine, car il s'agit d'un redéveloppement from scratch. Mais il n'y a pas que l'artwork qui a été revu, le système d'armes voit 2 évolutions majeures :",
     "Le héros est désormais capable de tirer dans les 8 directions, à la manière d'un Metroid (!) et peut changer d'arme quand bon lui semble (!!). A ce niveau-là, c'est une révolution.",
