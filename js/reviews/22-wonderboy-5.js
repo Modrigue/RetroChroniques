@@ -12,7 +12,8 @@ window.CHRONIQUES.push({
     "Sega ne s'y est d'ailleurs pas trompé en l'incluant dans sa Megadrive Mini officielle."
   ],
   images: [
-    { src: "img/Wonderboy5_1.jpg", alt: "Wonderboy 5 - Monsterworld III - Screenshot 1" }
+    { src: "img/Wonderboy5_1.jpg", alt: "Wonderboy 5 - Monsterworld III - Screenshot 1" },
+    { src: "img/Wonderboy5_2.jpg", alt: "Wonderboy 5 - Monsterworld III - Screenshot 2" }
   ],
   imagesAfterParagraph: 2,
   links: [],
