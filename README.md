@@ -1,2 +1,2 @@
 # RetroChroniques
-Mes chroniques de jeux vidéo rétro
+Mes chroniques de jeux vidéo rétro Amiga, GBA, Megadrive, SNES, PS1, ROM HAcks et Fan Games...

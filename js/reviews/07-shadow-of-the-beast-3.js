@@ -9,6 +9,11 @@ window.CHRONIQUES.push({
     "SotB 2 était en deçà sur presque tous les points, avec en plus des puzzles assez tordus.",
     "Qu'attendre du 3e volet ? Hé bien, comme marqué dans le manuel, les devs ont (enfin) écouté les critiques et réussi à garder l'ambiance onirique du 1 avec des puzzles plus intuitifs, condensant le tout dans un jeu de réflexion/plate-forme assez réussi. Un peu court, mais pas mal fait et avec une atmosphère unique."
   ],
+  images: [
+    { src: "img/ShadowOfTheBeast3_1.jpg", alt: "Shadow of the Beast III - Screenshot 1" },
+    { src: "img/ShadowOfTheBeast3_2.jpg", alt: "Shadow of the Beast III - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [{ url: "https://www.youtube.com/watch?v=bInATpCxwbY", type: "youtube", label: "Un aperçu et la critique des Shadow of the Beast" }],
   bonusRatings: [
     { title: "Shadow of the Beast I", rating: 2 },

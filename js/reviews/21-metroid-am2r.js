@@ -12,6 +12,11 @@ window.CHRONIQUES.push({
     "Je retire juste un petit demi-point pour l'aspect parfois un peu répétitif, mais c'est surtout du au jeu original.",
     "Incontournable si vous êtes fans des Metroids 2D !"
   ],
+  images: [
+    { src: "img/MetroidAM2R_1.jpg", alt: "Metroid AM2R - Screenshot 1" },
+    { src: "img/MetroidAM2R_2.jpg", alt: "Metroid AM2R - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 3,
   links: [],
   bonusRatings: null
 });

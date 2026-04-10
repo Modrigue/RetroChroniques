@@ -10,6 +10,11 @@ window.CHRONIQUES.push({
     "Alors que lui reproche-t-on en fait à ce Sonic ? Principalement son level design labyrinthique et paumatoire. Cela peut certes en contrarier certains, mais pas moi en tout cas, pour qui le hérisson bleu rime avec vitesse, mais aussi pas mal de verticalité et d'exploration. Pour moi, le point noir de cet épisode sont les niveaux bonus, une espèce de bouillasse de pixels voulant imiter le mode 7 de qui vous savez, injouable qui plus est. Par contre le reste, c'est du tout bon, avec quelques trouvailles fort sympathiques ! Je valide. En fait, comme disait un autre chroniqueur, il faut le voir comme un Sonic 1.5.",
     "Par contre, si vous ne connaissez pas le hérisson bleu, ce n'est pas le premier Sonic à essayer. Il faut en avoir tâté quelques uns auparavant pour pouvoir apprécier cet opus Mega CD à sa juste valeur."
   ],
+  images: [
+    { src: "img/SonicCD_1.jpg", alt: "Sonic CD - Screenshot 1" },
+    { src: "img/SonicCD_2.jpg", alt: "Sonic CD - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: [
     { title: "Sonic 1", rating: 4 },

@@ -10,6 +10,11 @@ window.CHRONIQUES.push({
     "Un 2e épisode est sorti, Super Turrican 2, qui peut intéresser les fans de Contra car il est plus axé action qu'exploration. Il devait être assez impressionnant sur la SNES à l'époque.",
     "A noter que les 3 Turrican consoles sont sortis sur la Virtual Console."
   ],
+  images: [
+    { src: "img/SuperTurrican_1.jpg", alt: "Super Turrican - Screenshot 1" },
+    { src: "img/SuperTurrican_2.jpg", alt: "Super Turrican - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: null
 });

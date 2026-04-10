@@ -16,6 +16,11 @@ window.CHRONIQUES.push({
     "Mon conseil : Explorez-bien le château !",
     "Question pour les connaisseurs de la série : Quel est selon vous le meilleur Castlevania en style RPG ?"
   ],
+  images: [
+    { src: "img/CastlevaniaSymphonyOfTheNight_1.jpg", alt: "Castlevania - Symphony of the Night - Screenshot 1" },
+    { src: "img/CastlevaniaSymphonyOfTheNight_2.jpg", alt: "Castlevania - Symphony of the Night - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 3,
   links: [],
   bonusRatings: null
 });

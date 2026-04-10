@@ -9,7 +9,7 @@
     showFanGames: true,
     showRomHacks: true,
     search: "",
-    sort: "alpha",
+    sort: "chronological",
     viewMode: "cards"
   };
 

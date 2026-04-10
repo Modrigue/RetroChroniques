@@ -11,6 +11,11 @@ window.CHRONIQUES.push({
     "En conclusion, ce second Castlevania sur GBA est globalement très sympathique. On pourra lui reprocher d'être un peu trop propre sur lui, manquant d'un petit de grain de folie, la faute peut être à un modèle trop encombrant... ou parce que les développeurs ont dû enchaîner les 3 épisodes en 3 ans.",
     "Comme on le voit, ces 2 premiers volets GBA sont assez complémentaires du point de vue leurs qualités et défauts. Qu'en sera-t-il du troisième, Aria of Sorrow, considéré par certains comme le meilleur de la trilogie ?"
   ],
+  images: [
+    { src: "img/CastlevaniaHarmonyOfDissonance_1.jpg", alt: "Castlevania - Harmony of Dissonance - Screenshot 1" },
+    { src: "img/CastlevaniaHarmonyOfDissonance_2.jpg", alt: "Castlevania - Harmony of Dissonance - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: null
 });

@@ -11,6 +11,11 @@ window.CHRONIQUES.push({
     "Souvent considéré comme le meilleur de la trilogie GBA, régulièrement cité dans le Top 3 des Castlevania, Aria of Sorrow est peut être également celui des 3 par lequel commencer, de par son équilibre à tous les niveaux et sa progression de la difficulté.",
     "De mon côté, je pense que j'ai eu ma dose de Castlevania pour.. un bon bout de temps !"
   ],
+  images: [
+    { src: "img/CastlevaniaAriaOfSorrow_1.jpg", alt: "Castlevania - Aria of Sorrow - Screenshot 1" },
+    { src: "img/CastlevaniaAriaOfSorrow_2.jpg", alt: "Castlevania - Aria of Sorrow - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: null
 });

@@ -9,6 +9,11 @@ window.CHRONIQUES.push({
     "Je ne retire 1/2 point que pour la toute fin.",
     "Pour info, je donne 4/5 aux autres versions de PoP 1."
   ],
+  images: [
+    { src: "img/SuperPrinceOfPersia_1.jpg", alt: "Super Prince of Persia - Screenshot 1" },
+    { src: "img/SuperPrinceOfPersia_2.jpg", alt: "Super Prince of Persia - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 1,
   links: [],
   bonusRatings: null
 });

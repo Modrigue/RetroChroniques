@@ -12,6 +12,11 @@ window.CHRONIQUES.push({
     "Malgré ces quelques remarques, qui sont plus des points d'amélioration que des défauts à proprement parler, Hurrican reste un fan game fait avec passion. Tout fan de la série ou retro gamer de plateformes / run' n' gun qui se respecte peut s'y frotter !",
     "Si vous voulez essayer, je vous conseille le petit utilitaire dgVoodoo qui permet de retailler les jeux des années 2000 sur les Windows récents."
   ],
+  images: [
+    { src: "img/Hurrican_1.jpg", alt: "Hurrican - Screenshot 1" },
+    { src: "img/Hurrican_2.jpg", alt: "Hurrican - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 3,
   links: [{ url: "https://www.winterworks.de/project/hurrican/", type: "website", label: "Site officiel Hurrican" }],
   bonusRatings: null
 });

@@ -13,7 +13,7 @@ window.CHRONIQUES.push({
     { src: "img/MegaTurrican_1.jpg", alt: "Mega Turrican - Screenshot 1" },
     { src: "img/MegaTurrican_2.jpg", alt: "Mega Turrican - Screenshot 2" }
   ],
-  imagesAfterParagraph: 2,
+  imagesAfterParagraph: 1,
   links: [{ url: "https://www.youtube.com/watch?v=0e2perjkl7U", type: "youtube", label: "Un aperçu de la saga Turrican" }],
   bonusRatings: [
     { title: "Turrican 1", rating: 4 },

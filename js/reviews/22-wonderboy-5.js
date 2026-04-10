@@ -11,6 +11,10 @@ window.CHRONIQUES.push({
     "Bien que manquant un peu de personnalité car recyclant pas mal ses ainés, Wonderboy 5 n'en reste pas moins un bon metroidvania pour enfants, peut être même le meilleur de la console.",
     "Sega ne s'y est d'ailleurs pas trompé en l'incluant dans sa Megadrive Mini officielle."
   ],
+  images: [
+    { src: "img/Wonderboy5_1.jpg", alt: "Wonderboy 5 - Monsterworld III - Screenshot 1" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: [
     { title: "Wonderboy 2 - Monsterworld I", rating: 4 },

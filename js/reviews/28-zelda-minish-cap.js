@@ -10,6 +10,11 @@ window.CHRONIQUES.push({
     "Pour ma part, je trouverai à redire sur le nouveau système de pierres à combiner. Chaque assemblage déclenche un événement plus ou moins aléatoire sur la carte, mais on passe parfois plus de temps à s'occuper de ces pierres que de faire avancer l'aventure à proprement parler. Et ne parlons même pas du système de figurines, encore une influence Pokémon ?",
     "Ces petits défauts mis à part, c'est du tout bon, si vous aimez les Zeldas 2D et ne connaissez pas encore celui-là, foncez-y !"
   ],
+  images: [
+    { src: "img/ZeldaMinishCap_1.jpg", alt: "Zelda - The Minish Cap - Screenshot 1" },
+    { src: "img/ZeldaMinishCap_2.jpg", alt: "Zelda - The Minish Cap - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: null
 });

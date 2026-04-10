@@ -9,6 +9,11 @@ window.CHRONIQUES.push({
     "Je retire 1/2 point pour les musiques, assez répétitives.",
     "A noter que le studio à l'origine du jeu se renommera plus tard en... Blizzard"
   ],
+  images: [
+    { src: "img/LostVikings_1.jpg", alt: "Lost Vikings - Screenshot 1" },
+    { src: "img/LostVikings_2.jpg", alt: "Lost Vikings - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 1,
   links: [],
   bonusRatings: null
 });

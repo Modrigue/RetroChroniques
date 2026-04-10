@@ -10,6 +10,11 @@ window.CHRONIQUES.push({
     "Petit bémol, inhérent à tous les level packs : le projet T2002X semble être à l'arrêt pour l'instant, du coup le nombre de boss, d'ennemis et d'armes n'évolue pas. Les level packs doivent donc toujours se cantonner aux mêmes bosses, ennemis et armes, avec des skins et des niveaux différents.",
     "Dommage, il faudrait que T2002X soit mis en open-source pour pouvoir continuer et proposer de nouvelles choses. En attendant, c'est avec un plaisir d'enfant non dissimulé que j'ai joué à ce Morgul's Return !"
   ],
+  images: [
+    { src: "img/TurricanMorgulsReturn_1.jpg", alt: "Turrican - Morgul's Return - Screenshot 1" },
+    { src: "img/TurricanMorgulsReturn_2.jpg", alt: "Turrican - Morgul's Return - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 1,
   links: [{ url: "https://www.youtube.com/watch?v=V61QjzOcSyI", type: "youtube", label: "Une vidéo qui donne un aperçu" }],
   bonusRatings: null
 });

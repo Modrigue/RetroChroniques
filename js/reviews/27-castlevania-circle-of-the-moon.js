@@ -10,6 +10,11 @@ window.CHRONIQUES.push({
     "Les environnements sont plaisants à parcourir et les pouvoirs, très sympathiques à utiliser, sont peut être mieux équilibrés que dans SOTN. Par contre au niveau de l'inventaire, autant c'était le grand festival du n'importe quoi sur PS1, autant là c'est un bien tristoune. C'est aussi un peu le cas pour l'exploration, réservant moins de surprises.",
     "Malgré ces petits défauts, Circle of the Moon est un bon cru de la série des Castlevania RPG. Il offre de nombreuses possibilités de gameplay avec son système de cartes à combiner, ainsi qu' une bonne rejouabilité : il est possible de refaire le jeu de différentes façons."
   ],
+  images: [
+    { src: "img/CastlevaniaCircleOfTheMoon_1.jpg", alt: "Castlevania - Circle of the Moon - Screenshot 1" },
+    { src: "img/CastlevaniaCircleOfTheMoon_2.jpg", alt: "Castlevania - Circle of the Moon - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: null
 });
