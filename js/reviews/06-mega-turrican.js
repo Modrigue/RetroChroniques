@@ -1,7 +1,7 @@
 window.CHRONIQUES.push({
   id: 6,
-  title: "Mega Turrican",
-  platforms: ["Megadrive"],
+  title: "Turrican 3 / Mega Turrican",
+  platforms: ["Amiga", "Megadrive"],
   rating: 3.5,
   category: "standard",
   nbPlayers: 1,
@@ -17,7 +17,7 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 1,
   links: [{ url: "https://www.youtube.com/watch?v=0e2perjkl7U", type: "youtube", label: "Un aperçu de la saga Turrican" }],
   bonusRatings: [
-    { title: "Mega Turrican", rating: 3.5 },
+    { title: "Turrican 3 / Mega Turrican", rating: 3.5 },
     { title: "Super Turrican", rating: 3, id: 8 }
   ]
 });
