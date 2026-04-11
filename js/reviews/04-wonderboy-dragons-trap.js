@@ -15,7 +15,7 @@ window.CHRONIQUES.push({
     { src: "img/Wonderboy3_1.jpg", alt: "Wonderboy 3 - Screenshot 1" }
   ],
   imagesAfterParagraph: 2,
-  links: [],
+  links: [{ url: "https://www.youtube.com/watch?v=egLTRtZI4Mw", type: "youtube", label: "Vidéo du jeu" }],
   bonusRatings: [
     { title: "Wonderboy 2 - Monsterworld I", rating: 4 },
     { title: "Wonderboy 3 - Monsterworld II", rating: 4 },

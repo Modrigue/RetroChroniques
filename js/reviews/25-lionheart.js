@@ -16,6 +16,6 @@ window.CHRONIQUES.push({
     { src: "img/Lionheart_2.jpg", alt: "Lionheart - Screenshot 2" }
   ],
   imagesAfterParagraph: 2,
-  links: [],
+  links: [{ url: "https://www.youtube.com/watch?v=B52Pco2rrVU", type: "youtube", label: "Vidéo du jeu" }],
   bonusRatings: null
 });

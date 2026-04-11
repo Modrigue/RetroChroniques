@@ -18,6 +18,9 @@ window.CHRONIQUES.push({
     { src: "img/SuperMetroidAscent_2.jpg", alt: "Super Metroid Ascent - Screenshot 2" }
   ],
   imagesAfterParagraph: 2,
-  links: [{ url: "https://metroidconstruction.com/hacks.php", type: "website", label: "MetroidConstruction - Hacks" }],
+  links: [
+    { url: "https://metroidconstruction.com/hacks.php", type: "website", label: "MetroidConstruction - Hacks" },
+    { url: "https://www.youtube.com/watch?v=BTEmz8wKtgY", type: "youtube", label: "Vidéo du jeu" }
+  ],
   bonusRatings: null
 });

@@ -19,7 +19,8 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 3,
   links: [
     { url: "https://metroidconstruction.com/hack.php?id=614", type: "website", label: "Page du hack sur MetroidConstruction" },
-    { url: "https://www.romhacking.net/hacks/4963/", type: "website", label: "Patch de recharge aux points de save" }
+    { url: "https://www.romhacking.net/hacks/4963/", type: "website", label: "Patch de recharge aux points de save" },
+    { url: "https://www.youtube.com/watch?v=PtEQUKrrh_w", type: "youtube", label: "Vidéo du jeu" }
   ],
   bonusRatings: null
 });

@@ -7,9 +7,9 @@ window.CHRONIQUES.push({
   nbPlayers: 1,
   review: [
     "Un grand classique et le 1er Metroid que j'ai fait. Il devient illico mon jeu favori sur SNES, avec Zelda III. Une immersion au top, une ambiance super, une map gigantesque avec plein de secrets... Je pose la question aux connaisseurs : serait-ce le meilleur jeu du style Metroidvania 2D ?",
-    "Le tour premier est considéré comme dur et Fusion a l'air plus guidé. Quant au 2, j'ai prévu de faire le remake AM2R plus tard."
+    "Ci-dessous, un classique du Let's Play français, l'épopée Super Metroid du Hooper, à savourer... avec délectation :"
   ],
-  links: [{ url: "https://www.youtube.com/watch?v=cVLtnYhkTFU", type: "youtube", label: "Un speedrun où ils font les boss à l'envers" }],
+  links: [{ url: "https://www.youtube.com/watch?v=iRPQZDBkeCE", type: "youtube", label: "Un speedrun où ils font les boss à l'envers" }],
   bonusRatings: [
     { title: "Metroid Zero Mission", rating: 4.5, id: 9 },
     { title: "Metroid AM2R", rating: 4.5, id: 21 },
