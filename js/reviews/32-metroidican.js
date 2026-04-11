@@ -15,9 +15,9 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 1,
   links: [],
   bonusRatings: [
-    { title: "Metroidican", rating: 3 },
-    { title: "Metroidican - Mission X", rating: 3.5, id: 26 },
-    { title: "Hurrican", rating: 3.5, id: 19 },
-    { title: "Turrican - Morgul's Return", rating: 4.5, id: 10 }
+    { id: 0 },
+    { id: 26 },
+    { id: 19 },
+    { id: 10 }
   ]
 });

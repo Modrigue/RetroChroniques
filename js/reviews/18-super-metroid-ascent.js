@@ -23,7 +23,7 @@ window.CHRONIQUES.push({
     { url: "https://www.youtube.com/watch?v=BTEmz8wKtgY", type: "youtube", label: "Vidéo du jeu" }
   ],
   bonusRatings: [
-    { title: "Super Metroid - Ascent", rating: 4 },
-    { title: "Super Metroid - Temple of the Winds", rating: 4, id: 29 }
+    { id: 0 },
+    { id: 29 }
   ]
 });

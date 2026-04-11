@@ -236,8 +236,13 @@
       html += '<h3>R\u00e9cap de la saga</h3>';
       html += '<ul class="bonus-ratings-list">';
       r.bonusRatings.forEach(function (b) {
-        if (b.id) {
-          html += '<li><a href="#review-' + b.id + '" class="bonus-rating-link" data-id="' + b.id + '">' + escapeHtml(b.title) + '</a><span class="bonus-rating-stars">' + renderStars(b.rating) + '</span></li>';
+        if (b.id === 0) {
+          html += '<li><span>' + escapeHtml(r.title) + '</span><span class="bonus-rating-stars">' + renderStars(r.rating) + '</span></li>';
+        } else if (b.id) {
+          var linkedReview = state.reviews.find(function (rev) { return rev.id === b.id; });
+          var title = linkedReview ? linkedReview.title : b.title;
+          var rating = linkedReview ? linkedReview.rating : b.rating;
+          html += '<li><a href="#review-' + b.id + '" class="bonus-rating-link" data-id="' + b.id + '">' + escapeHtml(title) + '</a><span class="bonus-rating-stars">' + renderStars(rating) + '</span></li>';
         } else {
           html += '<li><span>' + escapeHtml(b.title) + '</span><span class="bonus-rating-stars">' + renderStars(b.rating) + '</span></li>';
         }

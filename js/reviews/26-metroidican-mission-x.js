@@ -16,9 +16,9 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 1,
   links: [{ url: "https://youtu.be/WQ8k6mBJY1g", type: "youtube", label: "Le trailer du jeu" }],
   bonusRatings: [
-    { title: "Metroidican", rating: 3, id: 32 },
-    { title: "Metroidican - Mission X", rating: 3.5 },
-    { title: "Hurrican", rating: 3.5, id: 19 },
-    { title: "Turrican - Morgul's Return", rating: 4.5, id: 10 }
+    { id: 32 },
+    { id: 0 },
+    { id: 19 },
+    { id: 10 }
   ]
 });

@@ -18,9 +18,9 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 1,
   links: [{ url: "https://www.youtube.com/watch?v=V61QjzOcSyI", type: "youtube", label: "Une vidéo qui donne un aperçu" }],
   bonusRatings: [
-    { title: "Metroidican", rating: 3, id: 32 },
-    { title: "Metroidican - Mission X", rating: 3.5, id: 26 },
-    { title: "Hurrican", rating: 3.5, id: 19 },
-    { title: "Turrican - Morgul's Return", rating: 4.5 }
+    { id: 32 },
+    { id: 26 },
+    { id: 19 },
+    { id: 0 }
   ]
 });

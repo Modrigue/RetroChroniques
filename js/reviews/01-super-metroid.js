@@ -11,9 +11,9 @@ window.CHRONIQUES.push({
   ],
   links: [{ url: "https://www.youtube.com/watch?v=iRPQZDBkeCE", type: "youtube", label: "Un speedrun où ils font les boss à l'envers" }],
   bonusRatings: [
-    { title: "Metroid Zero Mission", rating: 4.5, id: 9 },
-    { title: "Metroid AM2R", rating: 4.5, id: 21 },
-    { title: "Super Metroid", rating: 5 },
-    { title: "Metroid Fusion", rating: 4, id: 24 }
+    { id: 9 },
+    { id: 21 },
+    { id: 0 },
+    { id: 24 }
   ]
 });

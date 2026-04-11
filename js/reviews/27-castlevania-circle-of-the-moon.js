@@ -18,9 +18,9 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 2,
   links: [],
   bonusRatings: [
-    { title: "Castlevania - Circle of the Moon", rating: 4 },
-    { title: "Castlevania - Harmony of Dissonance", rating: 3.5, id: 30 },
-    { title: "Castlevania - Aria of Sorrow", rating: 4.5, id: 17 },
-    { title: "Castlevania - Symphony of the Night", rating: 4.5, id: 20 }
+    { id: 0 },
+    { id: 30 },
+    { id: 17 },
+    { id: 20 }
   ]
 });

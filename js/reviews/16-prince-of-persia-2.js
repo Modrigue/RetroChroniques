@@ -12,7 +12,7 @@ window.CHRONIQUES.push({
   ],
   links: [],
   bonusRatings: [
-    { title: "Super Prince of Persia", rating: 4.5, id: 3 },
-    { title: "Prince of Persia 2", rating: 2.5 }
+    { id: 3 },
+    { id: 0 }
   ]
 });
