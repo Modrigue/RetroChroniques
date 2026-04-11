@@ -13,6 +13,11 @@ window.CHRONIQUES.push({
     "Cependant, la non-linéarité n'est un défaut que quand on s'appelle Metroid, et cet opus 4 a pour lui des points positifs que les autres épisodes n'ont pas. Outre un armement et un gameplay renouvelé, ainsi que quelques trouvailles bienvenues, c'est l'ambiance \"thriller spatial\" qui est très bien retranscrite. On se prend bien au jeu. Et ce n'est pas parce que c'est plus linéaire qu'il n'y a plus du tout d'exploration, au contraire.",
     "En conclusion, un bon cru, les gens de Nintendo ont essayé de changer un en proposant un challenge un peu différent. A faire, mais pas celui par lequel il faut commencer."
   ],
+  images: [
+    { src: "img/MetroidFusion_1.jpg", alt: "Metroid Fusion - Screenshot 1" },
+    { src: "img/MetroidFusion_2.jpg", alt: "Metroid Fusion - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: [
     { id: 9 },
