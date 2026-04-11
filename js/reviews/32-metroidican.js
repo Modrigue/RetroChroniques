@@ -13,7 +13,7 @@ window.CHRONIQUES.push({
     { src: "img/Metroidican_2.jpg", alt: "Metroidican - Screenshot 2" }
   ],
   imagesAfterParagraph: 1,
-  links: [],
+  links: [{ url: "https://www.youtube.com/watch?v=fYDuSh1kg_4", type: "youtube", label: "Vidéo du jeu" }],
   bonusRatings: [
     { id: 0 },
     { id: 26 },
