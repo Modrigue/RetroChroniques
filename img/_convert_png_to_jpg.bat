@@ -17,9 +17,20 @@ set "QUALITY=90"
 
 echo Processing files in: %SOURCE_DIR%
 echo Converting PNG to JPG (Quality: %QUALITY%%%)...
+echo.
+
+:: --- LIST FILES TO BE CONVERTED ---
+echo Files to convert:
+for %%f in ("%SOURCE_DIR%*.png") do (
+    echo - %%~nxf
+)
+echo.
 
 :: --- EXECUTION ---
 "%IRFANVIEW_PATH%" "%SOURCE_DIR%*.png" /jpgq=%QUALITY% /silent /convert="%DEST_DIR%*.jpg"
+
+echo.
+echo Conversion complete!
 
 if %ERRORLEVEL% EQU 0 (
     echo Success! JPGs created in the script folder.
