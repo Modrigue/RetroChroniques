@@ -147,14 +147,14 @@
       html += '<span class="card-rating">' + renderStars(r.rating) + '</span>';
       html += '</div>';
       html += '<div class="card-platforms">';
+      if (r.nbPlayers === 2) {
+        html += '<span class="players-badge">2P</span>';
+      }
       r.platforms.forEach(function (p) {
         html += '<span class="platform-badge ' + badgeClass(p) + '">' + escapeHtml(p) + '</span>';
       });
       if (catLabel) {
         html += '<span class="category-badge">' + escapeHtml(catLabel) + '</span>';
-      }
-      if (r.nbPlayers === 2) {
-        html += '<span class="players-badge">2P</span>';
       }
       if (r.year) {
         html += '<span class="year-badge">' + escapeHtml(r.year) + '</span>';
@@ -190,14 +190,14 @@
     var html = '';
     html += '<h2 class="modal-title">' + escapeHtml(r.title) + '</h2>';
     html += '<div class="modal-meta">';
+    if (r.nbPlayers === 2) {
+      html += '<span class="players-badge">2P</span>';
+    }
     r.platforms.forEach(function (p) {
       html += '<span class="platform-badge ' + badgeClass(p) + '">' + escapeHtml(p) + '</span>';
     });
     if (catLabel) {
       html += '<span class="category-badge">' + escapeHtml(catLabel) + '</span>';
-    }
-    if (r.nbPlayers === 2) {
-      html += '<span class="players-badge">2P</span>';
     }
     html += '<span class="modal-rating">' + renderStars(r.rating) + '</span>';
     if (r.year) {
