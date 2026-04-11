@@ -634,6 +634,16 @@ body.theme-amber .amiga-gradient {
   justify-content: center;
 }
 
+.year-badge {
+  font-family: var(--font-pixel);
+  font-size: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+  background: var(--text-dim);
+  color: #000;
+  margin-left: auto;
+}
+
 .card-excerpt {
   font-size: 0.85rem;
   color: var(--text-dim);
@@ -725,6 +735,16 @@ body.theme-amber .amiga-gradient {
   position: relative;
   margin-top: 2px;
   top: -0.3rem;
+}
+
+.modal-year {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 2px;
+  background: var(--text-dim);
+  color: #000;
+  margin-left: auto;
 }
 
 .modal-review p {

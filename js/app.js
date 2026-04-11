@@ -105,6 +105,18 @@
       results.sort(function (a, b) {
         return normalize(a.title).localeCompare(normalize(b.title));
       });
+    } else if (state.sort === "year-desc") {
+      results.sort(function (a, b) {
+        var ya = a.year === null || a.year === undefined ? 0 : a.year;
+        var yb = b.year === null || b.year === undefined ? 0 : b.year;
+        return yb - ya;
+      });
+    } else if (state.sort === "year-asc") {
+      results.sort(function (a, b) {
+        var ya = a.year === null || a.year === undefined ? 9999 : a.year;
+        var yb = b.year === null || b.year === undefined ? 9999 : b.year;
+        return ya - yb;
+      });
     }
     // chronological: most recent first (highest id first)
     if (state.sort === "chronological") {
@@ -143,6 +155,9 @@
       }
       if (r.nbPlayers === 2) {
         html += '<span class="players-badge">2P</span>';
+      }
+      if (r.year) {
+        html += '<span class="year-badge">' + escapeHtml(r.year) + '</span>';
       }
       html += '</div>';
       html += '<p class="card-excerpt">' + escapeHtml(excerpt(r.review, 160)) + '</p>';
@@ -185,6 +200,9 @@
       html += '<span class="players-badge">2P</span>';
     }
     html += '<span class="modal-rating">' + renderStars(r.rating) + '</span>';
+    if (r.year) {
+      html += '<span class="modal-year">' + escapeHtml(r.year) + '</span>';
+    }
     html += '</div>';
 
     html += '<div class="modal-review">';
