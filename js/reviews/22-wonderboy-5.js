@@ -17,7 +17,7 @@ window.CHRONIQUES.push({
     { src: "img/Wonderboy5_2.jpg", alt: "Wonderboy 5 - Monsterworld III - Screenshot 2" }
   ],
   imagesAfterParagraph: 2,
-  links: [],
+  links: [{ url: "https://www.youtube.com/watch?v=4aW_ZXWUaLo", type: "youtube", label: "Vidéo du jeu" }],
   bonusRatings: [
     { id: 4 },
     { id: 0 },
