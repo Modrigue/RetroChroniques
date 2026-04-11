@@ -3,14 +3,14 @@ Mes chroniques de jeux vidéo rétro Amiga, GBA, Megadrive, Mega CD, SNES, PC, P
 
 [https://modrigue.github.io/RetroChroniques](https://modrigue.github.io/RetroChroniques)
 
-![Super Metroid - Ascent](img/SuperMetroidAscent_1.jpg)
+<img src="img/SuperMetroidAscent_1.jpg" alt="Super Metroid - Ascent" width="300">
 
-![Turrican - Morgul's Return](img/TurricanMorgulsReturn_1.jpg)
+<img src="img/TurricanMorgulsReturn_1.jpg" alt="Turrican - Morgul's Return" width="300">
 
-![Castlevania - Symphony of the Night](img/CastlevaniaSymphonyOfTheNight_1.jpg)
+<img src="img/CastlevaniaSymphonyOfTheNight_1.jpg" alt="Castlevania - Symphony of the Night" width="300">
 
-![Sonic CD](img/SonicCD_1.jpg)
+<img src="img/SonicCD_1.jpg" alt="Sonic CD" width="300">
 
-![Lionheart](img/Lionheart_1.jpg)
+<img src="img/Lionheart_1.jpg" alt="Lionheart" width="300">
 
-![Wonderboy 3](img/Wonderboy3_1.jpg)
+<img src="img/Wonderboy3_1.jpg" alt="Wonderboy 3" width="300">
