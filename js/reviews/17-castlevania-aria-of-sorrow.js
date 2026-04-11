@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Castlevania - Aria of Sorrow",
   platforms: ["GBA"],
   rating: 4.5,
+  year: 2003,
   category: "standard",
   nbPlayers: 1,
   review: [

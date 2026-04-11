@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Prince of Persia 2",
   platforms: ["PC", "SNES"],
   rating: 2.5,
+  year: 1993,
   category: "standard",
   nbPlayers: 1,
   review: [

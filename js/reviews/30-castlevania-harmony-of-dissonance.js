@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Castlevania - Harmony of Dissonance",
   platforms: ["GBA"],
   rating: 3.5,
+  year: 2002,
   category: "standard",
   nbPlayers: 1,
   review: [

@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Super Turrican",
   platforms: ["SNES"],
   rating: 3,
+  year: 1993,
   category: "standard",
   nbPlayers: 1,
   review: [

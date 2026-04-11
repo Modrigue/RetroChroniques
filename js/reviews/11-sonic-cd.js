@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Sonic CD",
   platforms: ["Mega CD"],
   rating: 4,
+  year: 1993,
   category: "standard",
   nbPlayers: 1,
   review: [

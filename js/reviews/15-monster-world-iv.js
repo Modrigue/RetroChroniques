@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Wonderboy 6 / Monster World IV",
   platforms: ["Megadrive"],
   rating: 2.5,
+  year: 1994,
   category: "standard",
   nbPlayers: 1,
   review: [

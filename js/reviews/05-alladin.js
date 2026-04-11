@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Alladin",
   platforms: ["Megadrive"],
   rating: 4,
+  year: 1993,
   category: "standard",
   nbPlayers: 1,
   review: [

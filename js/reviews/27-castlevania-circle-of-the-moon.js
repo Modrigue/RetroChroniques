@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Castlevania - Circle of the Moon",
   platforms: ["GBA"],
   rating: 4,
+  year: 2001,
   category: "standard",
   nbPlayers: 1,
   review: [

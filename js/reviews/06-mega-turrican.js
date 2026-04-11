@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Turrican 3 / Mega Turrican",
   platforms: ["Amiga", "Megadrive"],
   rating: 3.5,
+  year: 1993,
   category: "standard",
   nbPlayers: 1,
   review: [

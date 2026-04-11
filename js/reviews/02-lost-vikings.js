@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Lost Vikings",
   platforms: ["Megadrive", "SNES"],
   rating: 4.5,
+  year: 1992,
   category: "standard",
   nbPlayers: 2,
   review: [

@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Super Prince of Persia",
   platforms: ["SNES"],
   rating: 4.5,
+  year: 1992,
   category: "standard",
   nbPlayers: 1,
   review: [

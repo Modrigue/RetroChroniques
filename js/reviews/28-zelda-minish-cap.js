@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Zelda - The Minish Cap",
   platforms: ["GBA"],
   rating: 4,
+  year: 2004,
   category: "standard",
   nbPlayers: 1,
   review: [

@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Ecco the Dolphin",
   platforms: ["Megadrive", "Mega CD"],
   rating: 3,
+  year: 1992,
   category: "standard",
   nbPlayers: 1,
   review: [

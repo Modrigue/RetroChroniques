@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Super Metroid",
   platforms: ["SNES"],
   rating: 5,
+  year: 1994,
   category: "standard",
   nbPlayers: 1,
   review: [

@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Flink",
   platforms: ["Megadrive", "Mega CD"],
   rating: 4,
+  year: 1994,
   category: "standard",
   nbPlayers: 1,
   review: [

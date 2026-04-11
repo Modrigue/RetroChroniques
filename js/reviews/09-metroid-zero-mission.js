@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Metroid Zero Mission",
   platforms: ["GBA"],
   rating: 4.5,
+  year: 2004,
   category: "standard",
   nbPlayers: 1,
   review: [

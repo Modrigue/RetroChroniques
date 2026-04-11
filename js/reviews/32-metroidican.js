@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Metroidican",
   platforms: ["PC"],
   rating: 3,
+  year: 2021,
   category: "fan-game",
   nbPlayers: 1,
   review: [

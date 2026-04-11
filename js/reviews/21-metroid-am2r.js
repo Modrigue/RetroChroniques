@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Metroid AM2R",
   platforms: ["PC"],
   rating: 4.5,
+  year: 2016,
   category: "fan-game",
   nbPlayers: 1,
   review: [

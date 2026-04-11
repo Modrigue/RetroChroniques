@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Turrican - Morgul's Return",
   platforms: ["PC"],
   rating: 4.5,
+  year: 2009,
   category: "fan-game",
   nbPlayers: 1,
   review: [

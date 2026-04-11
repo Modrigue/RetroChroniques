@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Super Metroid - Temple of the Winds",
   platforms: ["SNES"],
   rating: 4,
+  year: 2020,
   category: "rom-hack",
   nbPlayers: 1,
   review: [

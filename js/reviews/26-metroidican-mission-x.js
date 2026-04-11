@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Metroidican - Mission X",
   platforms: ["PC"],
   rating: 3.5,
+  year: 2020,
   category: "fan-game",
   nbPlayers: 1,
   review: [

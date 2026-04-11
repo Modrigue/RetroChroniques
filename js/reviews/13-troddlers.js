@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Troddlers",
   platforms: ["Amiga", "SNES"],
   rating: 3.5,
+  year: 1992,
   category: "standard",
   nbPlayers: 2,
   review: [

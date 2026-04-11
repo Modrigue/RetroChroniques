@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Sonic Triple Trouble",
   platforms: ["Game Gear"],
   rating: 3,
+  year: 1994,
   category: "standard",
   nbPlayers: 1,
   review: [

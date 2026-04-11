@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Shadow of the Beast III",
   platforms: ["Amiga"],
   rating: 3.5,
+  year: 1992,
   category: "standard",
   nbPlayers: 1,
   review: [

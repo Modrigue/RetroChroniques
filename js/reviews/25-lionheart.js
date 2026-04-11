@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Lionheart",
   platforms: ["Amiga"],
   rating: 3.5,
+  year: 1993,
   category: "standard",
   nbPlayers: 1,
   review: [

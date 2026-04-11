@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Monkey Island 3",
   platforms: ["PC"],
   rating: 4,
+  year: 1997,
   category: "standard",
   nbPlayers: 1,
   review: [

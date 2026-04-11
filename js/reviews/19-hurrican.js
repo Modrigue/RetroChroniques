@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Hurrican",
   platforms: ["PC"],
   rating: 3.5,
+  year: 2008,
   category: "fan-game",
   nbPlayers: 1,
   review: [

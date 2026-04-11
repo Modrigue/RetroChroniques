@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Castlevania - Symphony of the Night",
   platforms: ["PS1"],
   rating: 4.5,
+  year: 1997,
   category: "standard",
   nbPlayers: 1,
   review: [

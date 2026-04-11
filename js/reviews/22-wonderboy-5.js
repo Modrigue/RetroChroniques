@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Wonderboy 5 / MonsterWorld III",
   platforms: ["Megadrive"],
   rating: 4,
+  year: 1992,
   category: "standard",
   nbPlayers: 1,
   review: [

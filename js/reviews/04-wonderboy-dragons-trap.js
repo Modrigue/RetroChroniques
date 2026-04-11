@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Wonderboy 3 - The Dragon's Trap",
   platforms: ["Game Gear", "Master System", "PC"],
   rating: 4,
+  year: 1989,
   category: "standard",
   nbPlayers: 1,
   review: [

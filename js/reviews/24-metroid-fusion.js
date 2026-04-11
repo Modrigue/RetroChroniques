@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Metroid Fusion",
   platforms: ["GBA"],
   rating: 4,
+  year: 2002,
   category: "standard",
   nbPlayers: 1,
   review: [

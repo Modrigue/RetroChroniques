@@ -3,6 +3,7 @@ window.CHRONIQUES.push({
   title: "Super Metroid - Ascent",
   platforms: ["SNES"],
   rating: 4,
+  year: 2019,
   category: "rom-hack",
   nbPlayers: 1,
   review: [
