@@ -11,6 +11,11 @@ window.CHRONIQUES.push({
     "La version Mega CD apporte quand même 2 améliorations :\n- Les musiques sont différentes, vraiment belles et collent bien à l'ambiance aquatique. J'ai entendu que cette OST allait être (est ?) rééditée en vinyle.\n- Et surtout, ils ont rajouté des checkpoints dans les niveaux.",
     "Dommage, car avec des énigmes plus variées, des niveaux mieux désignés et plus progressifs, on aurait pu avoir un jeu grandiose. Ecco reste toutefois une licence phare de Sega et fait partie du paysage de la Megadrive. A essayer, mais à petites doses..."
   ],
+  images: [
+    { src: "img/EccoTheDolphin_1.jpg", alt: "Ecco the Dolphin - Screenshot 1" },
+    { src: "img/EccoTheDolphin_2.jpg", alt: "Ecco the Dolphin - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 1,
   links: [],
   bonusRatings: null
 });

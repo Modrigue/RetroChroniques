@@ -13,6 +13,11 @@ window.CHRONIQUES.push({
     "Je n'ai pas fait d'étude scientifique dessus, mais j'ai la vague d'impression qu'il y a globalement moins d'actions à faire que dans les épisodes précédents. La fin elle-même est assez rapide. J'ai l'impression aussi qu'il y a beaucoup d'objets inutiles (ça me rappelle un autre jeu chroniqué avant...), qui sont là juste pour faire une blague.",
     "Mais ces petits points ne doivent pas entraver le plaisir de jouer Guybrush dans une nouvelle aventure !"
   ],
+  images: [
+    { src: "img/MonkeyIsland3_1.jpg", alt: "Monkey Island 3 - Screenshot 1" },
+    { src: "img/MonkeyIsland3_2.jpg", alt: "Monkey Island 3 - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 2,
   links: [],
   bonusRatings: null
 });

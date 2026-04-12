@@ -11,6 +11,11 @@ window.CHRONIQUES.push({
     "Et ne parlons pas de la version SNES, tout simplement injouable (celle critiquée par le JdG).",
     "Mon PoP favori 2D reste donc pour l'instant le remake du 1 sur SNES."
   ],
+  images: [
+    { src: "img/PrinceOfPersia2_1.jpg", alt: "Prince of Persia 2 - Screenshot 1" },
+    { src: "img/PrinceOfPersia2_2.jpg", alt: "Prince of Persia 2 - Screenshot 2" }
+  ],
+  imagesAfterParagraph: 1,
   links: [],
   bonusRatings: [
     { id: 3 },
