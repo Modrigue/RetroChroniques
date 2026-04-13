@@ -62,6 +62,10 @@ function extractReviewData(filePath) {
     }
   }
   
+  // Extraction de la position des images
+  const imagesAfterParagraphMatch = content.match(/imagesAfterParagraph:\s*(\d+)/);
+  const imagesAfterParagraph = imagesAfterParagraphMatch ? parseInt(imagesAfterParagraphMatch[1]) : null;
+  
   // Extraction des images
   const imagesMatch = content.match(/images:\s*\[([\s\S]*?)\]/);
   let images = [];
@@ -107,7 +111,8 @@ function extractReviewData(filePath) {
     category: categoryMatch ? categoryMatch[1] : 'standard',
     review: reviewText,
     images: images,
-    links: links
+    links: links,
+    imagesAfterParagraph: imagesAfterParagraph
   };
 }
 
@@ -188,19 +193,28 @@ function generateRSS() {
     xml += '          <p><strong>Année:</strong> ' + (review.year || 'N/A') + '</p>\n';
     xml += '          <p><strong>Note:</strong> ' + escapeXml(rating) + '</p>\n';
     
-    // Texte de la chronique (tous les paragraphes)
+    // Texte de la chronique (tous les paragraphes) avec images au bon endroit
     if (Array.isArray(review.review)) {
-      review.review.forEach(paragraph => {
+      review.review.forEach((paragraph, index) => {
         xml += '          <p>' + escapeXml(cleanJsEscapes(paragraph)) + '</p>\n';
+        
+        // Insérer les images après le paragraphe spécifié
+        if (review.imagesAfterParagraph !== null && index === review.imagesAfterParagraph && review.images && review.images.length > 0) {
+          xml += '          <div class="images">\n';
+          review.images.forEach(img => {
+            const fullImgUrl = img.src.startsWith('http') ? img.src : config.siteUrl + '/' + img.src;
+            xml += '            <img src="' + escapeXml(fullImgUrl) + '" />\n';
+          });
+          xml += '          </div>\n';
+        }
       });
     }
     
-    // Images
-    if (review.images && review.images.length > 0) {
+    // Si imagesAfterParagraph n'est pas défini ou supérieur au nombre de paragraphes, mettre les images à la fin
+    if (review.imagesAfterParagraph === null || (review.imagesAfterParagraph !== null && review.imagesAfterParagraph >= review.review.length) && review.images && review.images.length > 0) {
       xml += '          <div class="images">\n';
       review.images.forEach(img => {
         const fullImgUrl = img.src.startsWith('http') ? img.src : config.siteUrl + '/' + img.src;
-        //xml += '            <img src="' + escapeXml(fullImgUrl) + '" alt="' + escapeXml(img.alt) + '" />\n';
         xml += '            <img src="' + escapeXml(fullImgUrl) + '" />\n';
       });
       xml += '          </div>\n';
