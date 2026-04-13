@@ -48,7 +48,43 @@ function extractReviewData(filePath) {
       .split('"')
       .filter(s => s.trim() && !s.startsWith(','))
       .map(s => s.trim());
-    reviewText = paragraphs.join('\n\n');
+    reviewText = paragraphs;
+  }
+  
+  // Extraction des images
+  const imagesMatch = content.match(/images:\s*\[([\s\S]*?)\]/);
+  let images = [];
+  if (imagesMatch) {
+    const imageEntries = imagesMatch[1].match(/\{\s*src:\s*"([^"]+)"\s*,\s*alt:\s*"([^"]+)"\s*\}/g);
+    if (imageEntries) {
+      images = imageEntries.map(entry => {
+        const srcMatch = entry.match(/src:\s*"([^"]+)"/);
+        const altMatch = entry.match(/alt:\s*"([^"]+)"/);
+        return {
+          src: srcMatch ? srcMatch[1] : '',
+          alt: altMatch ? altMatch[1] : ''
+        };
+      });
+    }
+  }
+  
+  // Extraction des liens (vidéos YouTube)
+  const linksMatch = content.match(/links:\s*\[([\s\S]*?)\]/);
+  let links = [];
+  if (linksMatch) {
+    const linkEntries = linksMatch[1].match(/\{\s*url:\s*"([^"]+)"\s*,\s*type:\s*"([^"]+)"\s*,\s*label:\s*"([^"]+)"\s*\}/g);
+    if (linkEntries) {
+      links = linkEntries.map(entry => {
+        const urlMatch = entry.match(/url:\s*"([^"]+)"/);
+        const typeMatch = entry.match(/type:\s*"([^"]+)"/);
+        const labelMatch = entry.match(/label:\s*"([^"]+)"/);
+        return {
+          url: urlMatch ? urlMatch[1] : '',
+          type: typeMatch ? typeMatch[1] : '',
+          label: labelMatch ? labelMatch[1] : ''
+        };
+      });
+    }
   }
   
   return {
@@ -58,8 +94,16 @@ function extractReviewData(filePath) {
     year: yearMatch ? parseInt(yearMatch[1]) : null,
     platforms: platformsMatch ? platformsMatch[1].split(',').map(p => p.trim().replace(/"/g, '')) : [],
     category: categoryMatch ? categoryMatch[1] : 'standard',
-    review: reviewText
+    review: reviewText,
+    images: images,
+    links: links
   };
+}
+
+// Fonction pour extraire l'ID YouTube depuis une URL
+function extractYoutubeId(url) {
+  const m = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+  return m ? m[1] : null;
 }
 
 // Fonction principale
@@ -96,7 +140,7 @@ function generateRSS() {
   xml += '    <description>' + escapeXml(config.siteDescription) + '</description>\n';
   xml += '    <language>fr-fr</language>\n';
   xml += '    <lastBuildDate>' + lastBuildDate + '</lastBuildDate>\n';
-  xml += '    <atom:link href="' + escapeXml(config.siteUrl) + '/rss.xml" rel="self" type="application/rss+xml"/>\n';
+  xml += '    <atom:link href="' + escapeXml(config.siteUrl) + '/feed/rss.xml" rel="self" type="application/rss+xml"/>\n';
   xml += '    <managingEditor>' + escapeXml(config.author) + '</managingEditor>\n';
   
   // Ajouter chaque chronique
@@ -126,13 +170,45 @@ function generateRSS() {
     xml += '      <pubDate>' + pubDate + '</pubDate>\n';
     xml += '      <category>' + escapeXml(category) + '</category>\n';
     xml += '      <description>\n';
-    xml += '        &lt;![CDATA[\n';
-    xml += '          &lt;p&gt;&lt;strong&gt;Plateformes:&lt;/strong&gt; ' + escapeXml(platforms) + '&lt;/p&gt;\n';
-    xml += '          &lt;p&gt;&lt;strong&gt;Année:&lt;/strong&gt; ' + (review.year || 'N/A') + '&lt;/p&gt;\n';
-    xml += '          &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; ' + escapeXml(rating) + '&lt;/p&gt;\n';
-    xml += '          &lt;p&gt;' + escapeXml(review.review.substring(0, 500)) + '...&lt;/p&gt;\n';
-    xml += '          &lt;p&gt;&lt;a href="' + escapeXml(link) + '"&gt;Lire la chronique complète&lt;/a&gt;&lt;/p&gt;\n';
-    xml += '        ]]&gt;\n';
+    xml += '        <![CDATA[\n';
+    
+    // Métadonnées
+    xml += '          <p><strong>Plateformes:</strong> ' + escapeXml(platforms) + '</p>\n';
+    xml += '          <p><strong>Année:</strong> ' + (review.year || 'N/A') + '</p>\n';
+    xml += '          <p><strong>Note:</strong> ' + escapeXml(rating) + '</p>\n';
+    
+    // Texte de la chronique (tous les paragraphes)
+    if (Array.isArray(review.review)) {
+      review.review.forEach(paragraph => {
+        xml += '          <p>' + escapeXml(paragraph) + '</p>\n';
+      });
+    }
+    
+    // Images
+    if (review.images && review.images.length > 0) {
+      xml += '          <div class="images">\n';
+      review.images.forEach(img => {
+        const fullImgUrl = img.src.startsWith('http') ? img.src : config.siteUrl + '/' + img.src;
+        xml += '            <img src="' + escapeXml(fullImgUrl) + '" alt="' + escapeXml(img.alt) + '" />\n';
+      });
+      xml += '          </div>\n';
+    }
+    
+    // Vidéos YouTube
+    if (review.links && review.links.length > 0) {
+      const youtubeLinks = review.links.filter(l => l.type === 'youtube');
+      youtubeLinks.forEach(link => {
+        const videoId = extractYoutubeId(link.url);
+        if (videoId) {
+          xml += '          <div class="video">\n';
+          xml += '            <iframe src="https://www.youtube-nocookie.com/embed/' + videoId + '" allowfullscreen></iframe>\n';
+          xml += '          </div>\n';
+        }
+      });
+    }
+    
+    xml += '          <p><a href="' + escapeXml(link) + '">Lire la chronique complète</a></p>\n';
+    xml += '        ]]>\n';
     xml += '      </description>\n';
     xml += '    </item>\n';
   });
