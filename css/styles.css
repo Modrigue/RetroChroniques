@@ -923,6 +923,28 @@ body.theme-amber .amiga-gradient {
   color: var(--text-dim);
 }
 
+.rss-btn {
+  font-family: var(--font-pixel);
+  font-size: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-card);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+}
+
+.rss-btn:hover {
+  color: var(--green);
+  border-color: var(--green-dim);
+}
+
 /* ===== NO RESULTS ===== */
 .no-results {
   grid-column: 1 / -1;
