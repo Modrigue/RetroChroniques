@@ -159,6 +159,13 @@ function generateRSS() {
   xml += '    <atom:link href="' + escapeXml(config.siteUrl) + '/feed/rss.xml" rel="self" type="application/rss+xml"/>\n';
   xml += '    <managingEditor>' + escapeXml(config.author) + '</managingEditor>\n';
   
+  // Icône du flux RSS
+  xml += '    <image>\n';
+  xml += '      <title>' + escapeXml(config.siteTitle) + '</title>\n';
+  xml += '      <url>' + escapeXml(config.siteUrl + '/img/favicon.svg') + '</url>\n';
+  xml += '      <link>' + escapeXml(config.siteUrl) + '</link>\n';
+  xml += '    </image>\n';
+  
   // Ajouter chaque chronique
   reviews.forEach(review => {
     // URL de la chronique (avec hash pour deep linking)

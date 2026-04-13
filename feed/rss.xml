@@ -5,9 +5,14 @@
     <link>https://modrigue.github.io/RetroChroniques</link>
     <description>Les chroniques des jeux vidéo rétro à Nico</description>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 13 Apr 2026 22:09:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 22:14:43 GMT</lastBuildDate>
     <atom:link href="https://modrigue.github.io/RetroChroniques/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>Nico</managingEditor>
+    <image>
+      <title>RetroChroniques</title>
+      <url>https://modrigue.github.io/RetroChroniques/img/favicon.svg</url>
+      <link>https://modrigue.github.io/RetroChroniques</link>
+    </image>
     <item>
       <title>Metroidican</title>
       <link>https://modrigue.github.io/RetroChroniques/#review-32</link>
