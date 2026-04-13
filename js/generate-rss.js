@@ -12,6 +12,14 @@ const config = {
   maxItems: 50 // Nombre maximum d'articles dans le flux
 };
 
+// Fonction pour nettoyer les échappements JavaScript
+function cleanJsEscapes(str) {
+  if (!str) return '';
+  return str
+    .replace(/\\"/g, '"')  // \" -> "
+    .replace(/\\'/g, "'");  // \' -> '
+}
+
 // Fonction pour échapper le XML
 function escapeXml(str) {
   if (!str) return '';
@@ -44,11 +52,14 @@ function extractReviewData(filePath) {
   const reviewMatch = content.match(/review:\s*\[([\s\S]*?)\]/);
   let reviewText = '';
   if (reviewMatch) {
-    const paragraphs = reviewMatch[1]
-      .split('"')
-      .filter(s => s.trim() && !s.startsWith(','))
-      .map(s => s.trim());
-    reviewText = paragraphs;
+    // Utiliser une regex pour extraire les chaînes entre guillemets en tenant compte des échappements
+    const stringMatches = reviewMatch[1].match(/"(?:[^"\\]|\\.)*"/g);
+    if (stringMatches) {
+      reviewText = stringMatches
+        .map(s => s.slice(1, -1)) // Enlever les guillemets externes
+        .map(s => s.replace(/\\"/g, '"').replace(/\\'/g, "'")) // Nettoyer les échappements JS
+        .filter(s => s.trim());
+    }
   }
   
   // Extraction des images
@@ -180,7 +191,7 @@ function generateRSS() {
     // Texte de la chronique (tous les paragraphes)
     if (Array.isArray(review.review)) {
       review.review.forEach(paragraph => {
-        xml += '          <p>' + escapeXml(paragraph) + '</p>\n';
+        xml += '          <p>' + escapeXml(cleanJsEscapes(paragraph)) + '</p>\n';
       });
     }
     
@@ -189,7 +200,8 @@ function generateRSS() {
       xml += '          <div class="images">\n';
       review.images.forEach(img => {
         const fullImgUrl = img.src.startsWith('http') ? img.src : config.siteUrl + '/' + img.src;
-        xml += '            <img src="' + escapeXml(fullImgUrl) + '" alt="' + escapeXml(img.alt) + '" />\n';
+        //xml += '            <img src="' + escapeXml(fullImgUrl) + '" alt="' + escapeXml(img.alt) + '" />\n';
+        xml += '            <img src="' + escapeXml(fullImgUrl) + '" />\n';
       });
       xml += '          </div>\n';
     }
