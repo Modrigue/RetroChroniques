@@ -171,10 +171,8 @@ function generateRSS() {
     // URL de la chronique (avec hash pour deep linking)
     const link = config.siteUrl + '/#review-' + review.id;
     
-    // Date de publication (basée sur l'année ou date actuelle)
-    const pubDate = review.year 
-      ? formatDate(new Date(review.year, 0, 1))
-      : formatDate(new Date());
+    // Date de publication (date courante pour tous les articles)
+    const pubDate = formatDate(new Date());
     
     // Catégorie
     const category = review.category === 'fan-game' ? 'Fan Game' :
