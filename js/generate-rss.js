@@ -4,8 +4,8 @@ const path = require('path');
 // Configuration
 const config = {
   siteTitle: 'RetroChroniques',
-  siteUrl: 'https://votre-domaine.com', // À modifier avec votre domaine réel
-  siteDescription: 'Chroniques personnelles de jeux vidéo rétro : GBA, Megadrive, SNES, PS1, Amiga et plus encore.',
+  siteUrl: 'https://modrigue.github.io/RetroChroniques',
+  siteDescription: 'Les chroniques des jeux vidéo rétro à Nico',
   author: 'Nico',
   rssFile: '../feed/rss.xml',
   reviewsDir: 'reviews',
