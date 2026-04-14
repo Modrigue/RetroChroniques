@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 3.5,
   year: 2008,
+  pubDate: "Sat, 03 Sep 2022 08:54:00 GMT",
   category: "fan-game",
   nbPlayers: 1,
   review: [

@@ -48,6 +48,10 @@ function extractReviewData(filePath) {
   const platformsMatch = content.match(/platforms:\s*\[([^\]]+)\]/);
   const categoryMatch = content.match(/category:\s*"([^"]+)"/);
   
+  // Extraction de la pubDate
+  const pubDateMatch = content.match(/pubDate:\s*"([^"]+)"/);
+  const pubDate = pubDateMatch ? pubDateMatch[1] : null;
+  
   // Extraction des paragraphes de review
   const reviewMatch = content.match(/review:\s*\[([\s\S]*?)\]/);
   let reviewText = '';
@@ -112,7 +116,8 @@ function extractReviewData(filePath) {
     review: reviewText,
     images: images,
     links: links,
-    imagesAfterParagraph: imagesAfterParagraph
+    imagesAfterParagraph: imagesAfterParagraph,
+    pubDate: pubDate
   };
 }
 
@@ -171,8 +176,8 @@ function generateRSS() {
     // URL de la chronique (avec hash pour deep linking)
     const link = config.siteUrl + '/#review-' + review.id;
     
-    // Date de publication (date courante pour tous les articles)
-    const pubDate = formatDate(new Date());
+    // Date de publication (utiliser directement la propriété pubDate ou la date courante si vide/absent)
+    const pubDateValue = review.pubDate && review.pubDate.trim() !== '' ? review.pubDate : formatDate(new Date());
     
     // Catégorie
     const category = review.category === 'fan-game' ? 'Fan Game' :
@@ -188,7 +193,7 @@ function generateRSS() {
     xml += '      <title>' + escapeXml(review.title) + '</title>\n';
     xml += '      <link>' + escapeXml(link) + '</link>\n';
     xml += '      <guid isPermaLink="false">' + review.id + '</guid>\n';
-    xml += '      <pubDate>' + pubDate + '</pubDate>\n';
+    xml += '      <pubDate>' + pubDateValue + '</pubDate>\n';
     xml += '      <category>' + escapeXml(category) + '</category>\n';
     xml += '      <description>\n';
     xml += '        <![CDATA[\n';

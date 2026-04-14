@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["GBA"],
   rating: 4.5,
   year: 2003,
+  pubDate: "Sat, 03 Sep 2022 08:54:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

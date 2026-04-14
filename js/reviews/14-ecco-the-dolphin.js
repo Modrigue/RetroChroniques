@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Megadrive", "Mega CD"],
   rating: 3,
   year: 1992,
+  pubDate: "Sat, 18 May 2019 07:17:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

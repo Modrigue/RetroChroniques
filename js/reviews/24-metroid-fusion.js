@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["GBA"],
   rating: 4,
   year: 2002,
+  pubDate: "Sun, 18 May 2020 10:52:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

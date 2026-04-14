@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 3,
   year: 2021,
+  pubDate: "Wed, 19 May 2021 11:48:00 GMT",
   category: "fan-game",
   nbPlayers: 1,
   review: [

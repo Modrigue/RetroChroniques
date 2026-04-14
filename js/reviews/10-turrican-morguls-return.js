@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 4.5,
   year: 2009,
+  pubDate: "Sat, 18 May 2019 07:17:00 GMT",
   category: "fan-game",
   nbPlayers: 1,
   review: [

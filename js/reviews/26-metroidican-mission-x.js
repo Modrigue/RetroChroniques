@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PC"],
   rating: 3.5,
   year: 2020,
+  pubDate: "Sun, 18 May 2020 10:52:00 GMT",
   category: "fan-game",
   nbPlayers: 1,
   review: [

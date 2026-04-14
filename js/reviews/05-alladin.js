@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Megadrive"],
   rating: 4,
   year: 1993,
+  pubDate: "Sun, 12 May 2018 08:10:56 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

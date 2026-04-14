@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Game Gear", "Master System", "PC"],
   rating: 4,
   year: 1989,
+  pubDate: "Sun, 12 May 2018 08:10:56 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

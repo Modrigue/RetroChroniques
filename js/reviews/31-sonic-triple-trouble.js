@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Game Gear"],
   rating: 3,
   year: 1994,
+  pubDate: "Wed, 19 May 2021 11:48:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

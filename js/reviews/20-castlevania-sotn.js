@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["PS1"],
   rating: 4.5,
   year: 1997,
+  pubDate: "Sun, 18 May 2020 10:52:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

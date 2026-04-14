@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["SNES"],
   rating: 4,
   year: 2019,
+  pubDate: "Sat, 03 Sep 2022 08:54:00 GMT",
   category: "rom-hack",
   nbPlayers: 1,
   review: [

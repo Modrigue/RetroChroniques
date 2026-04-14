@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["GBA"],
   rating: 4.5,
   year: 2004,
+  pubDate: "Sat, 18 May 2019 07:17:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

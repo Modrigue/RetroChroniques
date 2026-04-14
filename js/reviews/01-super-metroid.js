@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["SNES"],
   rating: 5,
   year: 1994,
+  pubDate: "Sun, 12 May 2018 08:10:56 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [

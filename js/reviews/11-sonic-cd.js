@@ -4,6 +4,7 @@ window.CHRONIQUES.push({
   platforms: ["Mega CD"],
   rating: 4,
   year: 1993,
+  pubDate: "Sat, 18 May 2019 07:17:00 GMT",
   category: "standard",
   nbPlayers: 1,
   review: [
