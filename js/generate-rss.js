@@ -43,7 +43,7 @@ function extractReviewData(filePath) {
   // Extraction simple des données via regex
   const titleMatch = content.match(/title:\s*"([^"]+)"/);
   const idMatch = content.match(/id:\s*(\d+)/);
-  const ratingMatch = content.match(/rating:\s*(\d+)/);
+  const ratingMatch = content.match(/rating:\s*(\d+(?:\.\d+)?)/);
   const yearMatch = content.match(/year:\s*(\d+)/);
   const platformsMatch = content.match(/platforms:\s*\[([^\]]+)\]/);
   const categoryMatch = content.match(/category:\s*"([^"]+)"/);
@@ -109,7 +109,7 @@ function extractReviewData(filePath) {
   return {
     id: idMatch ? parseInt(idMatch[1]) : 0,
     title: titleMatch ? titleMatch[1] : 'Sans titre',
-    rating: ratingMatch ? parseInt(ratingMatch[1]) : null,
+    rating: ratingMatch ? parseFloat(ratingMatch[1]) : null,
     year: yearMatch ? parseInt(yearMatch[1]) : null,
     platforms: platformsMatch ? platformsMatch[1].split(',').map(p => p.trim().replace(/"/g, '')) : [],
     category: categoryMatch ? categoryMatch[1] : 'standard',
@@ -186,8 +186,8 @@ function generateRSS() {
     // Plateformes
     const platforms = review.platforms.join(', ');
     
-    // Note
-    const rating = review.rating ? '★'.repeat(review.rating) : 'N/N';
+    // Note (format numérique sur 5 avec virgule pour les décimales)
+    const rating = review.rating ? review.rating.toString().replace('.', ',') + ' / 5' : 'N/A';
     
     xml += '    <item>\n';
     xml += '      <title>' + escapeXml(review.title) + '</title>\n';
