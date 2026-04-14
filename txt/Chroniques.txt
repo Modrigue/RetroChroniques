@@ -132,54 +132,6 @@ Et ne parlons pas de la version SNES, tout simplement injouable (celle critiqué
 Mon PoP favori 2D reste donc pour l'instant le remake du 1 sur SNES.
 
 
-Castlevania - Aria of Sorrow (GBA) 4.5/5
-
-Je ne sais pas s'ils ont un générateur automatique de titres de Castlevania à Konami, mais en tout cas leurs jeux sont bel et bien faits par des humains, avec soin et amour de son prochain. Ce qui est une performance en soi car les 3 opus GBA sont sortis métroniquement durant 3 années consécutives. Aria of Sorrow étant le petit dernier, on aurait pu s'attendre à un avachissement de la licence et à un manque de renouvellement. Hé bien que nenni !
-
-Non seulement la DA, l'ambiance, l'exploration sont toujours au rendez-vous, mais surtout est introduite une nouvelle mécanique de gameplay qui sera reprise dans de futurs opus, à savoir l'absorption d'"âmes" d'ennemis tués, qui permet d'utiliser un nombre très important de pouvoirs ou d'armes très différents pour aider à la progression.
-
-Vous savez ce qui est bien aussi ? C'est qu'on peut enfin revendre (et racheter) tout le merdier qu'on ramasse ! Et rien que pour ça, le jeu gagne un demi-point:-)
-
-Souvent considéré comme le meilleur de la trilogie GBA, régulièrement cité dans le Top 3 des Castlevania, Aria of Sorrow est peut être également celui des 3 par lequel commencer, de par son équilibre à tous les niveaux et sa progression de la difficulté.
-
-De mon côté, je pense que j'ai eu ma dose de Castlevania pour.. un bon bout de temps !
-
-
-Super Metroid - Ascent (rom hack SNES) 4/5
-
-Dans la famille des hacks de Super Metroid, je demande... le meilleur tout simplement :
-
-https://metroidconstruction.com/hacks.php
-
-Voyez plutôt les récompenses : Top Hacks 2019: Best Aesthetics, Most Creative Gameplay, Best Exploration, Best Overall. Tout ceci est-il dûment mérité ? Oui, oui, oui et encore oui.
-
-Axé sur les puzzles et de nouvelles mécaniques de jeu, c'est, avec Temple of the Winds (chroniqué l'année dernière), le rom hack de SM le plus inventif et intéressant auquel j'ai joué. Mais ce n'est pas tout : les graphismes sont aussi très travaillés, certains environnements psychédéliques sont vraiment superbes pour de la SNES, et la bande originale, totalement nouvelle, colle bien à l'ambiance du jeu.
-
-La difficulté est un peu plus élevée que le jeu d'origine mais pas trop, idem pour la taille des niveaux, contrairement à beaucoup de hacks destinés aux die-hard fans.
-
-Je mets quelques petits bémols pour certains boss et à une feature particulière que je ne vous spoilerai pas, mais à part ces points de pinaillage, c'est une réussite, une réinvention à tous les niveaux : énigmes, gameplay, environnements, musique..., et en plus faisable par le commun des mortels. Personnellement, c'est tout ce que je recherche dans un rom hack !
-
-A essayer les yeux fermés si vous êtes fan de Super Metroid.
-
-
-Hurrican (Fan game PC) 3.5/5
-
-Comme il est coutume, on finit sur un autre fan game Turrican, sauf que c'est cette fois-ci il est en 2D pré-rendu 3D. En effet, le jeu ne reprend pas les décors et les sprites d'origine, car il s'agit d'un redéveloppement from scratch. Mais il n'y a pas que l'artwork qui a été revu, le système d'armes voit 2 évolutions majeures :
-
-Le héros est désormais capable de tirer dans les 8 directions, à la manière d'un Metroid (!) et peut changer d'arme quand bon lui semble (!!). A ce niveau-là, c'est une révolution.
-
-Niveau DA, les musiques restent fidèles à l'esprit du compositeur original Chris Hüelsbeck (inspiré en grande partie par le groupe électro culte Tangerine Dream (retenez-bien ce nom, il en sera question prochainement dans un autre contexte...)). On pourrait dire la même chose pour les environnements, au point près qu'ils ont subi un lifting de pré-rendu 3D et là… pour une fois, je trouve le résultat bon.
-
-Les points que je trouve dommageables sont le choix de certains boss, le manque de sections shoot'em up et la difficulté pouvant rebuter au premier abord non seulement les joueurs ne connaissant pas Turrican..., mais aussi les autres, car mine de rien il y aura quelques nouvelles mécaniques de gameplay à maîtriser pour accéder aux passages secrets.
-
-Malgré ces quelques remarques, qui sont plus des points d'amélioration que des défauts à proprement parler, Hurrican reste un fan game fait avec passion. Tout fan de la série ou retro gamer de plateformes /  run' n' gun qui se respecte peut s'y frotter !
-
-Si vous voulez essayer :
-https://www.winterworks.de/project/hurrican/
-
-Si vous avez des problèmes de résolution, je vous conseille le petit utilitaire dgVoodoo qui permet de retailler les jeux des années 2000 sur les Windows récents.
-
-
 Castlevania - Symphony of the Night (PS1)
 
 Autant vous le dire tout de suite, je n'ai jamais été passionné par les histoires de vampires, d'occultisme et de morts-vivants. Du coup les séries JV/TV comme Resident Evil, Walking Dead et Castlevania - seule série de jeu au monde où ramasser des cœurs ne redonne pas de la vie - ,  je m'en bats pas mal le crucifix à la base. 
@@ -337,3 +289,51 @@ Metroidican (Fan game PC) 3/5
 
 Un dernier fan game Turrican à la sauce Metroid pour la route ?
 Par rapport à ma chronique de l'année dernière sur Metroidican Mission-X, pas grand chose à dire de plus. On évolue cette fois dans les environnements de Super Metroid, et on peut donc s'amuser à mettre des remixes des musiques correspondantes du jeu original pour plus d'ambiance.
+
+
+Castlevania - Aria of Sorrow (GBA) 4.5/5
+
+Je ne sais pas s'ils ont un générateur automatique de titres de Castlevania à Konami, mais en tout cas leurs jeux sont bel et bien faits par des humains, avec soin et amour de son prochain. Ce qui est une performance en soi car les 3 opus GBA sont sortis métroniquement durant 3 années consécutives. Aria of Sorrow étant le petit dernier, on aurait pu s'attendre à un avachissement de la licence et à un manque de renouvellement. Hé bien que nenni !
+
+Non seulement la DA, l'ambiance, l'exploration sont toujours au rendez-vous, mais surtout est introduite une nouvelle mécanique de gameplay qui sera reprise dans de futurs opus, à savoir l'absorption d'"âmes" d'ennemis tués, qui permet d'utiliser un nombre très important de pouvoirs ou d'armes très différents pour aider à la progression.
+
+Vous savez ce qui est bien aussi ? C'est qu'on peut enfin revendre (et racheter) tout le merdier qu'on ramasse ! Et rien que pour ça, le jeu gagne un demi-point:-)
+
+Souvent considéré comme le meilleur de la trilogie GBA, régulièrement cité dans le Top 3 des Castlevania, Aria of Sorrow est peut être également celui des 3 par lequel commencer, de par son équilibre à tous les niveaux et sa progression de la difficulté.
+
+De mon côté, je pense que j'ai eu ma dose de Castlevania pour.. un bon bout de temps !
+
+
+Super Metroid - Ascent (rom hack SNES) 4/5
+
+Dans la famille des hacks de Super Metroid, je demande... le meilleur tout simplement :
+
+https://metroidconstruction.com/hacks.php
+
+Voyez plutôt les récompenses : Top Hacks 2019: Best Aesthetics, Most Creative Gameplay, Best Exploration, Best Overall. Tout ceci est-il dûment mérité ? Oui, oui, oui et encore oui.
+
+Axé sur les puzzles et de nouvelles mécaniques de jeu, c'est, avec Temple of the Winds (chroniqué l'année dernière), le rom hack de SM le plus inventif et intéressant auquel j'ai joué. Mais ce n'est pas tout : les graphismes sont aussi très travaillés, certains environnements psychédéliques sont vraiment superbes pour de la SNES, et la bande originale, totalement nouvelle, colle bien à l'ambiance du jeu.
+
+La difficulté est un peu plus élevée que le jeu d'origine mais pas trop, idem pour la taille des niveaux, contrairement à beaucoup de hacks destinés aux die-hard fans.
+
+Je mets quelques petits bémols pour certains boss et à une feature particulière que je ne vous spoilerai pas, mais à part ces points de pinaillage, c'est une réussite, une réinvention à tous les niveaux : énigmes, gameplay, environnements, musique..., et en plus faisable par le commun des mortels. Personnellement, c'est tout ce que je recherche dans un rom hack !
+
+A essayer les yeux fermés si vous êtes fan de Super Metroid.
+
+
+Hurrican (Fan game PC) 3.5/5
+
+Comme il est coutume, on finit sur un autre fan game Turrican, sauf que c'est cette fois-ci il est en 2D pré-rendu 3D. En effet, le jeu ne reprend pas les décors et les sprites d'origine, car il s'agit d'un redéveloppement from scratch. Mais il n'y a pas que l'artwork qui a été revu, le système d'armes voit 2 évolutions majeures :
+
+Le héros est désormais capable de tirer dans les 8 directions, à la manière d'un Metroid (!) et peut changer d'arme quand bon lui semble (!!). A ce niveau-là, c'est une révolution.
+
+Niveau DA, les musiques restent fidèles à l'esprit du compositeur original Chris Hüelsbeck (inspiré en grande partie par le groupe électro culte Tangerine Dream (retenez-bien ce nom, il en sera question prochainement dans un autre contexte...)). On pourrait dire la même chose pour les environnements, au point près qu'ils ont subi un lifting de pré-rendu 3D et là… pour une fois, je trouve le résultat bon.
+
+Les points que je trouve dommageables sont le choix de certains boss, le manque de sections shoot'em up et la difficulté pouvant rebuter au premier abord non seulement les joueurs ne connaissant pas Turrican..., mais aussi les autres, car mine de rien il y aura quelques nouvelles mécaniques de gameplay à maîtriser pour accéder aux passages secrets.
+
+Malgré ces quelques remarques, qui sont plus des points d'amélioration que des défauts à proprement parler, Hurrican reste un fan game fait avec passion. Tout fan de la série ou retro gamer de plateformes /  run' n' gun qui se respecte peut s'y frotter !
+
+Si vous voulez essayer :
+https://www.winterworks.de/project/hurrican/
+
+Si vous avez des problèmes de résolution, je vous conseille le petit utilitaire dgVoodoo qui permet de retailler les jeux des années 2000 sur les Windows récents.
