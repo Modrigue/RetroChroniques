@@ -160,7 +160,7 @@
         html += '<span class="year-badge">' + escapeHtml(r.year) + '</span>';
       }
       html += '</div>';
-      html += '<p class="card-excerpt">' + escapeHtml(excerpt(r.review, 160)) + '</p>';
+      html += '<p class="card-excerpt">' + excerpt(r.review, 160) + '</p>';
       html += '</article>';
     });
 
@@ -208,7 +208,7 @@
     html += '<div class="modal-review">';
     var insertAfter = r.imagesAfterParagraph || null;
     r.review.forEach(function (p, idx) {
-      html += '<p>' + escapeHtml(p) + '</p>';
+      html += '<p>' + p + '</p>';
       if (r.images && r.images.length > 0 && insertAfter === idx + 1) {
         html += '<div class="modal-images">';
         r.images.forEach(function (img) {

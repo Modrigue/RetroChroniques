@@ -206,7 +206,7 @@ function generateRSS() {
     // Texte de la chronique (tous les paragraphes) avec images au bon endroit
     if (Array.isArray(review.review)) {
       review.review.forEach((paragraph, index) => {
-        xml += '          <p>' + escapeXml(cleanJsEscapes(paragraph)) + '</p>\n';
+        xml += '          <p>' + cleanJsEscapes(paragraph) + '</p>\n';
         
         // Insérer les images après le paragraphe spécifié
         if (review.imagesAfterParagraph !== null && index === review.imagesAfterParagraph && review.images && review.images.length > 0) {
