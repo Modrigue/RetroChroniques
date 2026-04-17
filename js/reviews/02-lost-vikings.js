@@ -1,7 +1,7 @@
 window.CHRONIQUES.push({
   id: 2,
   title: "Lost Vikings",
-  platforms: ["Megadrive", "SNES"],
+  platforms: ["Amiga", "Atari ST", "Megadrive", "SNES"],
   rating: 4.5,
   year: 1992,
   pubDate: "Sun, 12 May 2018 08:10:56 GMT",
