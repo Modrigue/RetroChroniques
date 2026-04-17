@@ -5,7 +5,7 @@
     <link>https://modrigue.github.io/RetroChroniques</link>
     <description>Les chroniques des jeux vidéo rétro à Nico</description>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 14 Apr 2026 22:04:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 11:10:16 GMT</lastBuildDate>
     <atom:link href="https://modrigue.github.io/RetroChroniques/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>Nico</managingEditor>
     <image>
@@ -13,6 +13,37 @@
       <url>https://modrigue.github.io/RetroChroniques/img/favicon.svg</url>
       <link>https://modrigue.github.io/RetroChroniques</link>
     </image>
+    <item>
+      <title>Loom</title>
+      <link>https://modrigue.github.io/RetroChroniques/#review-33</link>
+      <guid isPermaLink="false">33</guid>
+      <pubDate>Fri, 17 Apr 2026 18:48:00 GMT</pubDate>
+      <category>Jeu officiel</category>
+      <description>
+        <![CDATA[
+          <p><strong>Plateformes:</strong> Atari ST, Amiga, PC</p>
+          <p><strong>Année:</strong> 1990</p>
+          <p><strong>Note:</strong> 5 / 5</p>
+          <p>Cette chronique est dédiée à mon père.</p>
+          <p>Il est des jeux qui vous marquent à vie. Parmi les premiers jeux d&apos;aventure de LucasArts, Loom fait figure d&apos;OVNI dans cette catégorie, créatif (osons le mot... &quot;disruptif&quot; même) à tout point de vue. Dès l&apos;introduction, on est saisi par l&apos;univers, l&apos;ambiance, la magie... et la musique ! Mes aïeux ! Ce choc des sens fut ma première rencontre musicale avec le Lac des Cignes de Tchaïkovski, qui va nous accompagner tout au long de l&apos;aventure.</p>
+          <p>Vous êtes Bobbin, un apprenti de la guide des tisserands dont la mère a mystérieusement été bannie du village. Au cours de votre périple, vous allez devoir mettre au jour la raison de son banissement et rencontrer d&apos;autres guildes pour progresser dans votre quête.</p>
+          <p>L&apos;originalité majeure de Loom tient en son gameplay, complètement différent des autres jeux du genre. Pour effectuer une action, au lieu de bêtement cliquer sur une liste de verbes déjà tous disponibles, vous &quot;tissez&quot; des mélodies avec les notes dont vous disposez. Il va sans dire qu&apos;en tant qu&apos;apprenti, au début, l&apos;ensemble des notes que vous pourrez jouer sera (très) limité, réduisant ainsi le champ des possibles. Par la suite, en gagnant en expérience, vous augmenterez naturellement votre gamme.</p>
+          <p>Mais ce n&apos;est pas tout. Par exemple, si la mélodie e,c,e,d représente l&apos;action d&apos;ouvrir quelque chose, la mélodie à l&apos;envers - d,e,c,e - représente l&apos;action inverse, donc de fermer. Il fallait y penser ! Je dirais même plus: il faut y penser, parce que ce n&apos;est pas écrit avec gros sabots sur des panneaux dans un quelconque tuto. Ce sera à vous de noter les mélodies.</p>
+          <div class="images">
+            <img src="https://modrigue.github.io/RetroChroniques/img/Loom_1.png" />
+            <img src="https://modrigue.github.io/RetroChroniques/img/Loom_2.png" />
+          </div>
+          <p>Et ce n&apos;est toujours pas tout : il faudra aussi écouter les mélodies lors des actions des différents personnages et animaux dans votre environnement. Certaines mélodies entendues ne seront pas utilisables sur le moment. J&apos;insiste sur le fait de tout écouter et tout noter, car étant un des premiers jeux d&apos;aventure LucasArts - et c&apos;est le seul petit bémol (bémol, note, vous l&apos;avez ?) que je mettrai au jeu - on peut être bloqué si on ne fait pas attention.</p>
+          <p>Pour les plus motivés, le mode de jeu difficile n&apos;affiche pas les notes jouées, ce sera à vous et à vos oreilles de transcrire les mélodies. Pas facile à première vue, mais rendant le jeu plus immersif, vous aurez droit à une cinématique supplémentaire.</p>
+          <p>Un point and click pas comme les autres, une aventure magique, contemplative, un gameplay unique, un trésor d&apos;inventivité, le tout dans un univers véritablement original, Loom est un véritable rêve vidéoludique éveillé. Preuve du souci du détail des créateurs, une cassette audio était même incluse dans la boîte du jeu, histoire de bien poser le ton !</p>
+          <p>Si vous êtes fan de jeux d&apos;aventure et que vous recherchez l&apos;évasion et l&apos;originalité, Loom est une expérience totale à vivre... Personnellement, je l&apos;ai vécue enfant, les jours de week-end pluvieux, avec mon père.</p>
+          <div class="video">
+            <iframe src="https://www.youtube-nocookie.com/embed/Anf7juABar8" allowfullscreen></iframe>
+          </div>
+          <p><a href="https://modrigue.github.io/RetroChroniques/#review-33">Lire la chronique complète</a></p>
+        ]]>
+      </description>
+    </item>
     <item>
       <title>Metroidican</title>
       <link>https://modrigue.github.io/RetroChroniques/#review-32</link>
@@ -744,7 +775,7 @@
       <category>Jeu officiel</category>
       <description>
         <![CDATA[
-          <p><strong>Plateformes:</strong> Megadrive, SNES</p>
+          <p><strong>Plateformes:</strong> Amiga, Atari ST, Megadrive, SNES</p>
           <p><strong>Année:</strong> 1992</p>
           <p><strong>Note:</strong> 4,5 / 5</p>
           <p>LE jeu de puzzle/plate-forme de l&apos;époque, avec Lemmings, mais en plus fun. Le joueur dirige 3 personnages aux capacités différentes et doit les faire s&apos;entraider pour progresser. Son humour et sa difficulté progressive en font un jeu idéal pour les enfants, qui plus est pour apprendre l&apos;anglais.</p>
