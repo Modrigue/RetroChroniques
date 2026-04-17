@@ -8,7 +8,7 @@ window.CHRONIQUES.push({
   category: "standard",
   nbPlayers: 1,
   review: [
-    "Cette chronique est dédiée à mon père.",
+    "<em>Cette chronique est dédiée à mon père.</em>",
     "Il est des jeux qui vous marquent à vie. Parmi les premiers jeux d'aventure de LucasArts, Loom fait figure d'OVNI dans cette catégorie, créatif (osons le mot... \"disruptif\" même) à tout point de vue. Dès l'introduction, on est saisi par l'univers, l'ambiance, la magie... et la musique ! Mes aïeux ! Ce choc des sens fut ma première rencontre musicale avec le Lac des Cignes de Tchaïkovski, qui va nous accompagner tout au long de l'aventure.",
     "Vous êtes Bobbin, un apprenti de la guide des tisserands dont la mère a mystérieusement été bannie du village. Au cours de votre périple, vous allez devoir mettre au jour la raison de son banissement et rencontrer d'autres guildes pour progresser dans votre quête.",
     "L'originalité majeure de Loom tient en son gameplay, complètement différent des autres jeux du genre. Pour effectuer une action, au lieu de bêtement cliquer sur une liste de verbes déjà tous disponibles, vous \"tissez\" des mélodies avec les notes dont vous disposez. Il va sans dire qu'en tant qu'apprenti, au début, l'ensemble des notes que vous pourrez jouer sera (très) limité, réduisant ainsi le champ des possibles. Par la suite, en gagnant en expérience, vous augmenterez naturellement votre gamme.",
