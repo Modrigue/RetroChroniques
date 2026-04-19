@@ -7,6 +7,11 @@ set "BASE_DIR=%~dp0"
 
 :: Set path to IrfanView (Usually needs an absolute path unless it's in your System PATH)
 set "IRFANVIEW_PATH=C:\Program Files\IrfanView\i_view64.exe"
+:: if IrfanView 64-bit is not found, try the 32-bit version
+if not exist "%IRFANVIEW_PATH%" (
+    set "IRFANVIEW_PATH=C:\Program Files (x86)\IrfanView\i_view32.exe"
+)
+
 
 :: Use relative subfolders or just the current folder
 :: Current folder: "%BASE_DIR%"
