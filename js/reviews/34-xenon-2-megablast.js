@@ -23,5 +23,8 @@ window.CHRONIQUES.push({
   ],
   imagesAfterParagraph: 3,
   links: [{ url: "https://www.youtube.com/watch?v=CKM3TSLXh4g", type: "youtube", label: "Vidéo YouTube" }],
-  bonusRatings: null
+  bonusRatings: [
+    { id: 35 },
+    { id: 0 }
+  ]
 });
