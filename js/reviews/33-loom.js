@@ -19,8 +19,8 @@ window.CHRONIQUES.push({
     "Si vous êtes fan de jeux d'aventure et que vous recherchez l'évasion et l'originalité, Loom est une expérience totale à vivre... Personnellement, je l'ai vécue enfant, les jours de week-end pluvieux, avec mon père."
   ],
   images: [
-    { src: "img/Loom_1.png", alt: "Loom - Screenshot 1" },
-    { src: "img/Loom_2.png", alt: "Loom - Screenshot 2" }
+    { src: "img/Loom_1.jpg", alt: "Loom - Screenshot 1" },
+    { src: "img/Loom_2.jpg", alt: "Loom - Screenshot 2" }
   ],
   imagesAfterParagraph: 4,
   links: [{ url: "https://www.youtube.com/watch?v=Anf7juABar8", type: "youtube", label: "Vidéo YouTube" }],
