@@ -16,6 +16,9 @@ window.CHRONIQUES.push({
     { src: "img/Flink_2.jpg", alt: "Flink - Screenshot 2" }
   ],
   imagesAfterParagraph: 1,
-  links: [{ url: "https://www.youtube.com/watch?v=TYBDMcBhbV8", type: "youtube", label: "Une vidéo chronique" }],
+  links: [
+    { url: "#review-25", type: "website", label: "De la même équipe : Lionheart" },
+    { url: "https://www.youtube.com/watch?v=TYBDMcBhbV8", type: "youtube", label: "Une vidéo chronique" }
+  ],
   bonusRatings: null
 });

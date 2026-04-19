@@ -9,9 +9,9 @@ window.CHRONIQUES.push({
   nbPlayers: 1,
   review: [
     "Dommage. Le début est bien, la fin aussi. Par contre c'est assez ennuyeux au milieu et le tout manque un peu de rythme. D'après ce que j'ai compris, le jeu a du sortir en urgence, obligeant les devs à abandonner plusieurs niveaux et certains boss.",
-    "Maintenant qu'il y a des fan games Turrican, ça m'intéresserait de voir si des amateurs avec du temps libre peuvent faire des meilleurs jeux que des pros sous contraintes financières et temporelles.",
-    "Un 2e épisode est sorti, Super Turrican 2, qui peut intéresser les fans de Contra car il est plus axé action qu'exploration. Il devait être assez impressionnant sur la SNES à l'époque.",
-    "A noter que les 3 Turrican consoles sont sortis sur la Virtual Console."
+    "Maintenant qu'il y a des fan games <em>Turrican</em>, ça m'intéresserait de voir si des amateurs avec du temps libre peuvent faire des meilleurs jeux que des pros sous contraintes financières et temporelles.",
+    "Un 2e épisode est sorti, <em>Super Turrican 2</em>, qui peut intéresser les fans de Contra car il est plus axé action qu'exploration. Il devait être assez impressionnant sur la SNES à l'époque.",
+    "A noter que les 3 <em>Turrican</em> consoles sont sortis sur la Virtual Console."
   ],
   images: [
     { src: "img/SuperTurrican_1.jpg", alt: "Super Turrican - Screenshot 1" },

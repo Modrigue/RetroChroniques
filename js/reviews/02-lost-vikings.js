@@ -10,7 +10,7 @@ window.CHRONIQUES.push({
   review: [
     "LE jeu de puzzle/plate-forme de l'époque, avec Lemmings, mais en plus fun. Le joueur dirige 3 personnages aux capacités différentes et doit les faire s'entraider pour progresser. Son humour et sa difficulté progressive en font un jeu idéal pour les enfants, qui plus est pour apprendre l'anglais.",
     "Je retire 1/2 point pour les musiques, assez répétitives.",
-    "A noter que le studio à l'origine du jeu se renommera plus tard en... Blizzard"
+    "A noter que le studio à l'origine du jeu se renommera plus tard en... <em>Blizzard</em>"
   ],
   images: [
     { src: "img/LostVikings_1.jpg", alt: "Lost Vikings - Screenshot 1" },
