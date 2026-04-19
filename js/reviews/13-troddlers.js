@@ -8,8 +8,8 @@ window.CHRONIQUES.push({
   category: "standard",
   nbPlayers: 2,
   review: [
-    "Un bon petit jeu de puzzle/réflexion à la Lemmings, mais avec un petit côté plateforme sympathique et une identité propre. Des exemples, des objets à récolter sur le parcours, et aussi des \"méchants\" lemmings. Pour les dubitatifs, il s'agit bien d'un jeu conçu pour le joypad/joystick et non d'une adaptation d'un jeu ordi à la souris. Un mode 2 joueurs est aussi disponible.",
-    "Mon seul reproche concerne la difficulté, pas toujours progressive et bien dosée, mais cela n'empêche pas Troddlers d'être un puzzle-game à découvrir si vous êtes fan du genre."
+    "Un bon petit jeu de puzzle/réflexion à la <em>Lemmings</em>, mais avec un petit côté plateforme sympathique et une identité propre. Des exemples, des objets à récolter sur le parcours, et aussi des \"méchants\" lemmings. Pour les dubitatifs, il s'agit bien d'un jeu conçu pour le joypad/joystick et non d'une adaptation d'un jeu ordi à la souris. Un mode 2 joueurs est aussi disponible.",
+    "Mon seul reproche concerne la difficulté, pas toujours progressive et bien dosée, mais cela n'empêche pas <em>Troddlers</em> d'être un puzzle-game à découvrir si vous êtes fan du genre."
   ],
   images: [
     { src: "img/Troddlers_1.jpg", alt: "Troddlers - Screenshot 1" },
