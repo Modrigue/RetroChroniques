@@ -1,7 +1,7 @@
 window.CHRONIQUES.push({
   id: 34,
   title: "Xenon 2 Megablast",
-  platforms: ["Atari ST", "Amiga", "PC"],
+  platforms: ["Atari ST", "Amiga", "Megadrive", "PC"],
   rating: 4.5,
   year: 1989,
   pubDate: "Sun, 19 Apr 2026 10:13:00 GMT",
@@ -15,7 +15,7 @@ window.CHRONIQUES.push({
     "Car non seulement vous allez devoir réfléchir à ce que vous achetez, mais aussi à ce que vous vendez ! Un armement pourra très bien être adapté à une configuration d'un niveau et pas du tout à un autre. Cette gestion poussée de l'équipement, à des années-lumière de ce qui se faisait à l'époque dans les shmups, offre une grande replay value. Une telle customisation de vaisseau ne sera surpassée, à ma connaissance, que plus tard par Tyrian.",
     "Autre spécificité du jeu : bien que le scrolling soit vertical, il est possible de faire reculer le vaisseau pour aller en arrière et emprunter un autre passage, ou freiner pour éviter un projectile. Il y a carrément une section sous forme de mini-labyrinthe !",
     "Paradoxalement, le seul défaut de Xenon 2 est un de ses points forts : sa bande originale, toujours le même unique morceau malheureusement, quelque soit le niveau. Et aussi sa fin, où l'on doit bêtement recommencer le jeu avec les ennemis plus résistants. Une coutume dans les jeux d'arcade des années 80, mais qui n'avait plus vraiment sa place pour un jeu de cette ambition qui inaugurait une nouvelle décennie.",
-    "Aux antipodes des manic shooters style ThunderForce et autres DonDonpachi, Xenon 2 se rapprocherait plus de R-Type en termes de philosophie d'action. Un shoot 'em up posé, où l'on prend son temps, on réfléchit, on observe, on apprend, avant de tirer sur tout ce qui bouge avec l'équipement qu'on aura soigneusement choisi. À découvrir d'urgence, sur Amiga ou Atari ST, pour faire votre propre expérience, si vous êtes fan du genre."
+    "Aux antipodes des manic shooters style ThunderForce et autres DonDonpachi, Xenon 2 se rapprocherait plus de R-Type en termes de philosophie d'action. Un shoot 'em up posé, où l'on prend son temps, on réfléchit, on observe, on apprend, avant de tirer sur tout ce qui bouge avec l'équipement qu'on aura soigneusement choisi. À découvrir d'urgence pour faire votre propre expérience, si vous êtes fan du genre."
   ],
   images: [
     { src: "img/Xenon2_1.jpg", alt: "Xenon 2 Megablast - Screenshot 1" },
