@@ -5,7 +5,7 @@
     <link>https://modrigue.github.io/RetroChroniques</link>
     <description>Les chroniques des jeux vidéo rétro à Nico</description>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 19 Apr 2026 06:57:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 10:14:33 GMT</lastBuildDate>
     <atom:link href="https://modrigue.github.io/RetroChroniques/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>Nico</managingEditor>
     <image>
@@ -13,6 +13,36 @@
       <url>https://modrigue.github.io/RetroChroniques/img/favicon.svg</url>
       <link>https://modrigue.github.io/RetroChroniques</link>
     </image>
+    <item>
+      <title>Xenon 2 Megablast</title>
+      <link>https://modrigue.github.io/RetroChroniques/#review-34</link>
+      <guid isPermaLink="false">34</guid>
+      <pubDate>Sun, 19 Apr 2026 10:13:00 GMT</pubDate>
+      <category>Jeu officiel</category>
+      <description>
+        <![CDATA[
+          <p><strong>Plateformes:</strong> Atari ST, Amiga, PC</p>
+          <p><strong>Année:</strong> 1989</p>
+          <p><strong>Note:</strong> 4,5 / 5</p>
+          <p>Fraîchement déballé sous le sapin de Noël 1989, Xenon 2 fut le deuxième jeu vidéo auquel j'ai joué sur mon Atari ST flambant neuf, ainsi que ma première gifle vidéoludique. Dans le sens où le jeu vidéo se donnait vraiment les moyens de ses ambitions et franchissait un cap. Du haut de mes trois pommes en tout cas.</p>
+          <p>Véritable super-production de l'époque, la claque commence avec le morceau <em>Megablast</em> de <em>Bomb The Bass</em>, remix hip-hop/rock du morceau titre électro du film <em>Assault</em> de John Carpenter. Croyez-moi, la première fois, ça vous prend aux tripes. D'autant plus que la version Atari ST envoie plus le bois - pour une fois - que la version Amiga, plus léchée.</p>
+          <p>Après le choc sonore, le choc visuel : Non mais regardez-moi ces décors de toute beauté ! Le détail et le rendu des graphismes met la misère aux autres shmups de l'époque. Quel progrès par rapport à Xenon premier du nom, seulement sorti un an auparavant ! L'action se déroule à plusieurs ères (crétacé, jurassique, etc....), sur 5 niveaux, chacun découpé en 2 parties, avec des boss à la clé. Et quels boss! Certains peuvent prendre plusieurs écrans, du jamais vu à l'époque pour un shoot 'em up vertical.</p>
+          <p>Cependant, le jeu ne se contente pas d'être une prouesse technique et propose moultes innovations. La plus importante à mon goût est celle du magasin. Une authentique caverne d'Ali Baba où vous allez pouvoir, 2 fois par niveau, construire votre vaisseau à la carte. Si vous commencez le jeu avec le piou-piou de base, par la suite, c'est une véritable armada, une puissance de feu titanesque, que vous allez diriger... Si vous vous débrouillez bien avec votre argent.</p>
+          <div class="images">
+            <img src="https://modrigue.github.io/RetroChroniques/img/Xenon2_1.jpg" />
+            <img src="https://modrigue.github.io/RetroChroniques/img/Xenon2_2.jpg" />
+          </div>
+          <p>Car non seulement vous allez devoir réfléchir à ce que vous achetez, mais aussi à ce que vous vendez ! Un armement pourra très bien être adapté à une configuration d'un niveau et pas du tout à un autre. Cette gestion poussée de l'équipement, à des années-lumière de ce qui se faisait à l'époque dans les shmups, offre une grande replay value. Une telle customisation de vaisseau ne sera surpassée, à ma connaissance, que plus tard par Tyrian.</p>
+          <p>Autre spécificité du jeu : bien que le scrolling soit vertical, il est possible de faire reculer le vaisseau pour aller en arrière et emprunter un autre passage, ou freiner pour éviter un projectile. Il y a carrément une section sous forme de mini-labyrinthe !</p>
+          <p>Paradoxalement, le seul défaut de Xenon 2 est un de ses points forts : sa bande originale, toujours le même unique morceau malheureusement, quelque soit le niveau. Et aussi sa fin, où l'on doit bêtement recommencer le jeu avec les ennemis plus résistants. Une coutume dans les jeux d'arcade des années 80, mais qui n'avait plus vraiment sa place pour un jeu de cette ambition qui inaugurait une nouvelle décennie.</p>
+          <p>Aux antipodes des manic shooters style ThunderForce et autres DonDonpachi, Xenon 2 se rapprocherait plus de R-Type en termes de philosophie d'action. Un shoot 'em up posé, où l'on prend son temps, on réfléchit, on observe, on apprend, avant de tirer sur tout ce qui bouge avec l'équipement qu'on aura soigneusement choisi. À découvrir d'urgence, sur Amiga ou Atari ST, pour faire votre propre expérience, si vous êtes fan du genre.</p>
+          <div class="video">
+            <iframe src="https://www.youtube-nocookie.com/embed/CKM3TSLXh4g" allowfullscreen></iframe>
+          </div>
+          <p><a href="https://modrigue.github.io/RetroChroniques/#review-34">Lire la chronique complète</a></p>
+        ]]>
+      </description>
+    </item>
     <item>
       <title>Loom</title>
       <link>https://modrigue.github.io/RetroChroniques/#review-33</link>
