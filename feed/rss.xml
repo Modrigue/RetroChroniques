@@ -5,7 +5,7 @@
     <link>https://modrigue.github.io/RetroChroniques</link>
     <description>Les chroniques des jeux vidéo rétro à Nico</description>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 20 Apr 2026 14:02:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 15:42:38 GMT</lastBuildDate>
     <atom:link href="https://modrigue.github.io/RetroChroniques/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>Nico</managingEditor>
     <image>
@@ -14,6 +14,30 @@
       <link>https://modrigue.github.io/RetroChroniques</link>
     </image>
     <item>
+      <title>Batman The Movie</title>
+      <link>https://modrigue.github.io/RetroChroniques/#review-36</link>
+      <guid isPermaLink="false">36</guid>
+      <pubDate>Mon, 20 Apr 2026 18:42:00 GMT</pubDate>
+      <category>Jeu officiel</category>
+      <description>
+        <![CDATA[
+          <p><strong>Plateformes:</strong> Amiga, Atari ST</p>
+          <p><strong>Année:</strong> 1989</p>
+          <p><strong>Note:</strong> 3,5 / 5</p>
+          <p>Tout simplement le premier jeu vidéo auquel j'ai joué chez moi ce Noël 1989. Et cette rencontre vidéoludique fut autant bouleversifiante... qu'exigeante, avec sans doute l'un des premiers niveaux les plus difficiles de l'histoire. Ah, ça, de mon temps, les jeux vidéo ça vous apprenait la rigueur, la patience, la discipline, pas comme les jeux d'aujourd'hui hein. C'est à la sueur de son front qu'on devenait un as du jeu de plate-formes... ou pas.</p>
+          <p>Car pour un premier niveau de plate-formes - et c'est ça qui est drôle - Batman ne peut pas sauter. Oh non, là, il faudra utiliser le grappin, pardon la <em>Batrope</em>, un peu à la manière de <em>Bionic Commando</em>, tout en faisant TRÈS attention aux ennemis qui vous balancent joyeusement leurs projectiles et autres grenades en pleine poire.</p>
+          <p>Pas question de foncer tête baissée avec vos <em>Batarangs</em>, vous allez vous prendre une saucée et adieu Kim Basinger. Dans l'approche, ce serait presque un niveau d'infiltration... si ce n'était pour la maniabilité de Batman, aussi agile qu'un 36 tonnes. Il va falloir vous armer de patience et surtout de rigueur pour passer ce niveau de l'usine et vous enjailler sur la suite du jeu, bien plus fun (et plus simple !).</p>
+          <div class="images">
+            <img src="https://modrigue.github.io/RetroChroniques/img/BatmanTheMovie_1.jpg" />
+            <img src="https://modrigue.github.io/RetroChroniques/img/BatmanTheMovie_2.jpg" />
+          </div>
+          <p>Voyez plutôt : vous pourrez diriger la <em>BatMobile</em>, le <em>Batwing</em> et identifier les produits du Joker dans la <em>BatCave</em>. Les niveaux avec les véhicules sont très réussis et ceux sur lesquels je me suis le plus amusé, notamment avec le grappin de la <em>Batmobile</em>. La fin se déroule dans la cathédrale et reprend la structure de plateforme utilisée au premier niveau. Donc... bonne chance. Tout ça à l'époque sans sauvegarde, bien entendu.</p>
+          <p>Alors que la plupart des jeux à licence était pour la plupart ratés, <em>Batman The Movie</em> suit assez fidèlement le film, avec une réalisation technique et une variété de gameplays fort convaincantes. Bien que la maniabilité gagnerait à être revue dans les niveaux de plateforme, cet opus moins connu est à essayer pour les fans (courageux) de la chauve-souris.</p>
+          <p><a href="https://modrigue.github.io/RetroChroniques/#review-36">Lire la chronique complète</a></p>
+        ]]>
+      </description>
+    </item>
+    <item>
       <title>Xenon</title>
       <link>https://modrigue.github.io/RetroChroniques/#review-35</link>
       <guid isPermaLink="false">35</guid>
@@ -21,7 +45,7 @@
       <category>Jeu officiel</category>
       <description>
         <![CDATA[
-          <p><strong>Plateformes:</strong> Atari ST, Amiga</p>
+          <p><strong>Plateformes:</strong> Amiga, Atari ST</p>
           <p><strong>Année:</strong> 1988</p>
           <p><strong>Note:</strong> 2 / 5</p>
           <p>On a tendance à l'oublier, mais avant <em>Xenon 2</em>, il y a  eu... <em>Xenon 1</em> ! Et le moins que l'on puisse dire, pour le premier jeu des Bitmap Brothers, c'est que... c'est pas encore ça... Dans le sens où, habituellement, ils réussissent à se frotter à plusieurs styles de jeux bien établis tout en y apportant leur propre patte, et des innovations par-dessus le marché.</p>
@@ -44,7 +68,7 @@
       <category>Jeu officiel</category>
       <description>
         <![CDATA[
-          <p><strong>Plateformes:</strong> Atari ST, Amiga, Megadrive, PC</p>
+          <p><strong>Plateformes:</strong> Amiga, Atari ST, Megadrive, PC</p>
           <p><strong>Année:</strong> 1989</p>
           <p><strong>Note:</strong> 4,5 / 5</p>
           <p>Fraîchement déballé sous le sapin de Noël 1989, Xenon 2 fut le deuxième jeu vidéo auquel j'ai joué sur mon Atari ST flambant neuf, ainsi que ma première gifle vidéoludique. Dans le sens où le jeu vidéo se donnait vraiment les moyens de ses ambitions et franchissait un cap. Du haut de mes trois pommes en tout cas.</p>
@@ -74,7 +98,7 @@
       <category>Jeu officiel</category>
       <description>
         <![CDATA[
-          <p><strong>Plateformes:</strong> Atari ST, Amiga, PC</p>
+          <p><strong>Plateformes:</strong> Amiga, Atari ST, PC</p>
           <p><strong>Année:</strong> 1990</p>
           <p><strong>Note:</strong> 5 / 5</p>
           <p><em>Cette chronique est dédiée à mon père.</em></p>
