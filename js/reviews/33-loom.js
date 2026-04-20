@@ -1,7 +1,7 @@
 window.CHRONIQUES.push({
   id: 33,
   title: "Loom",
-  platforms: ["Atari ST", "Amiga", "PC"],
+  platforms: ["Amiga", "Atari ST", "PC"],
   rating: 5,
   year: 1990,
    pubDate: "Fri, 17 Apr 2026 18:48:00 GMT",
