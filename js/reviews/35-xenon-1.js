@@ -1,7 +1,7 @@
 window.CHRONIQUES.push({
   id: 35,
   title: "Xenon",
-  platforms: ["Atari ST", "Amiga"],
+  platforms: ["Amiga", "Atari ST"],
   rating: 2,
   year: 1988,
   pubDate: "Sun, 19 Apr 2026 22:17:00 GMT",

@@ -1,7 +1,7 @@
 window.CHRONIQUES.push({
   id: 34,
   title: "Xenon 2 Megablast",
-  platforms: ["Atari ST", "Amiga", "Megadrive", "PC"],
+  platforms: ["Amiga", "Atari ST", "Megadrive", "PC"],
   rating: 4.5,
   year: 1989,
   pubDate: "Sun, 19 Apr 2026 10:13:00 GMT",
