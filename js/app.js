@@ -402,11 +402,30 @@
     });
   }
 
+  function applyThemeUI(isAmber) {
+    document.body.classList.toggle("theme-amber", isAmber);
+    themeToggle.textContent = isAmber ? "Vert" : "Ambre";
+    themeToggle.title = isAmber ? "Passer en thème vert" : "Passer en thème ambre";
+  }
+
+  function updateUrlTheme(isAmber) {
+    var params = new URLSearchParams(location.search);
+    params.set("theme", isAmber ? "amber" : "green");
+    var newUrl = location.pathname + "?" + params.toString() + location.hash;
+    history.replaceState(null, "", newUrl);
+  }
+
+  function initThemeFromUrl() {
+    var params = new URLSearchParams(location.search);
+    var theme = params.get("theme");
+    applyThemeUI(theme === "amber");
+  }
+
   function initThemeToggle() {
     themeToggle.addEventListener("click", function () {
-      var isAmber = document.body.classList.toggle("theme-amber");
-      themeToggle.textContent = isAmber ? "Vert" : "Ambre";
-      themeToggle.title = isAmber ? "Passer en thème vert" : "Passer en thème ambre";
+      var isAmber = !document.body.classList.contains("theme-amber");
+      applyThemeUI(isAmber);
+      updateUrlTheme(isAmber);
     });
   }
 
@@ -464,6 +483,7 @@
   // ===== INIT =====
   function init() {
     initViewModeFromUrl();
+    initThemeFromUrl();
     renderCards();
     initFilters();
     initSearch();
