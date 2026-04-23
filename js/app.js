@@ -364,14 +364,40 @@
     });
   }
 
+  function applyViewModeUI() {
+    var iconCards = viewToggle.querySelector(".view-icon-cards");
+    var iconList = viewToggle.querySelector(".view-icon-list");
+    if (state.viewMode === "list") {
+      iconCards.classList.add("hidden");
+      iconList.classList.remove("hidden");
+    } else {
+      iconCards.classList.remove("hidden");
+      iconList.classList.add("hidden");
+    }
+    var tooltip = state.viewMode === "cards" ? "Passer en vue liste" : "Passer en vue grille";
+    viewToggle.title = tooltip;
+    viewToggle.setAttribute("aria-label", tooltip);
+  }
+
+  function updateUrlMode() {
+    var params = new URLSearchParams(location.search);
+    params.set("mode", state.viewMode === "list" ? "list" : "grid");
+    var newUrl = location.pathname + "?" + params.toString() + location.hash;
+    history.replaceState(null, "", newUrl);
+  }
+
+  function initViewModeFromUrl() {
+    var params = new URLSearchParams(location.search);
+    var mode = params.get("mode");
+    state.viewMode = mode === "list" ? "list" : "cards";
+    applyViewModeUI();
+  }
+
   function initViewToggle() {
     viewToggle.addEventListener("click", function () {
       state.viewMode = state.viewMode === "cards" ? "list" : "cards";
-      viewToggle.querySelector(".view-icon-cards").classList.toggle("hidden");
-      viewToggle.querySelector(".view-icon-list").classList.toggle("hidden");
-      var tooltip = state.viewMode === "cards" ? "Passer en vue liste" : "Passer en vue grille";
-      viewToggle.title = tooltip;
-      viewToggle.setAttribute("aria-label", tooltip);
+      applyViewModeUI();
+      updateUrlMode();
       renderCards();
     });
   }
@@ -437,6 +463,7 @@
 
   // ===== INIT =====
   function init() {
+    initViewModeFromUrl();
     renderCards();
     initFilters();
     initSearch();
