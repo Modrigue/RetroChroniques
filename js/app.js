@@ -357,9 +357,25 @@
     });
   }
 
+  function updateUrlOrderBy() {
+    var params = new URLSearchParams(location.search);
+    params.set("orderby", state.sort);
+    var newUrl = location.pathname + "?" + params.toString() + location.hash;
+    history.replaceState(null, "", newUrl);
+  }
+
+  function initOrderByFromUrl() {
+    var params = new URLSearchParams(location.search);
+    var orderby = params.get("orderby");
+    var valid = ["chronological", "alpha", "rating-desc", "rating-asc", "year-desc", "year-asc"];
+    state.sort = valid.indexOf(orderby) !== -1 ? orderby : "chronological";
+    sortSelect.value = state.sort;
+  }
+
   function initSort() {
     sortSelect.addEventListener("change", function () {
       state.sort = sortSelect.value;
+      updateUrlOrderBy();
       renderCards();
     });
   }
@@ -484,6 +500,7 @@
   function init() {
     initViewModeFromUrl();
     initThemeFromUrl();
+    initOrderByFromUrl();
     renderCards();
     initFilters();
     initSearch();
