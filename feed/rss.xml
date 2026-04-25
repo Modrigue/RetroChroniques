@@ -5,7 +5,7 @@
     <link>https://modrigue.github.io/RetroChroniques</link>
     <description>Les chroniques des jeux vidéo rétro à Nico</description>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 23 Apr 2026 08:03:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 13:30:57 GMT</lastBuildDate>
     <atom:link href="https://modrigue.github.io/RetroChroniques/feed/rss.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>Nico</managingEditor>
     <image>
@@ -13,6 +13,28 @@
       <url>https://modrigue.github.io/RetroChroniques/img/favicon.svg</url>
       <link>https://modrigue.github.io/RetroChroniques</link>
     </image>
+    <item>
+      <title>Wonderboy 2 / Monster World</title>
+      <link>https://modrigue.github.io/RetroChroniques/#review-37</link>
+      <guid isPermaLink="false">37</guid>
+      <pubDate>Sat, 25 Apr 2026 13:30:57 GMT</pubDate>
+      <category>Jeu officiel</category>
+      <description>
+        <![CDATA[
+          <p><strong>Plateformes:</strong> Amiga, Arcade, Atari ST, Master System</p>
+          <p><strong>Année:</strong> 1987</p>
+          <p><strong>Note:</strong> 4 / 5</p>
+          <div class="images">
+            <img src="https://modrigue.github.io/RetroChroniques/img/Wonderboy2_1.jpg" />
+            <img src="https://modrigue.github.io/RetroChroniques/img/Wonderboy2_2.jpg" />
+          </div>
+          <div class="video">
+            <iframe src="https://www.youtube-nocookie.com/embed/02D4-mvmi9c" allowfullscreen></iframe>
+          </div>
+          <p><a href="https://modrigue.github.io/RetroChroniques/#review-37">Lire la chronique complète</a></p>
+        ]]>
+      </description>
+    </item>
     <item>
       <title>Batman The Movie</title>
       <link>https://modrigue.github.io/RetroChroniques/#review-36</link>
