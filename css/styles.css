@@ -30,6 +30,7 @@
   --color-ps1: #6b7280;
   --color-pc: #f59e0b;
   --color-amiga: #ef4444;
+  --color-arcade: #14b8a6;
   --color-gamegear: #ec4899;
   --color-atarist: #f97316;
 
@@ -609,6 +610,7 @@ body.theme-amber .amiga-gradient {
 .badge-PS1 { background: var(--color-ps1); }
 .badge-PC { background: var(--color-pc); }
 .badge-Amiga { background: var(--color-amiga); }
+.badge-Arcade { background: var(--color-arcade); }
 .badge-Atari-ST { background: var(--color-atarist); }
 .badge-Game-Gear { background: var(--color-gamegear); }
 .badge-Master-System { background: #d946ef; }

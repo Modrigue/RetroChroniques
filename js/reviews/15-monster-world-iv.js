@@ -19,6 +19,7 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 2,
   links: [],
   bonusRatings: [
+    //{ id: 37 },
     { id: 4 },
     { id: 22 },
     { id: 0 }

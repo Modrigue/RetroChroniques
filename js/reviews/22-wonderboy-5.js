@@ -21,6 +21,7 @@ window.CHRONIQUES.push({
   imagesAfterParagraph: 2,
   links: [{ url: "https://www.youtube.com/watch?v=4aW_ZXWUaLo", type: "youtube", label: "Vidéo du jeu" }],
   bonusRatings: [
+    //{ id: 37 },
     { id: 4 },
     { id: 0 },
     { id: 15 }
